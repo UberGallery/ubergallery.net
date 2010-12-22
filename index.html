@@ -26,134 +26,149 @@
         <div class="widthConstraint">
             
             <ul id="pageNavigation" class="clearfix">
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Requirements</a></li>
-                <li><a href="#">Simple Installation</a></li>
-                <li><a href="#">Advanced Installation</a></li>
-                <li><a href="#">Install with Git</a></li>
+                <li><a href="#introd">Introduction</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#requirements">Requirements</a></li>
+                <li><a href="#simpleInstall">Simple Installation</a></li>
+                <li><a href="#advancedInstall">Advanced Installation</a></li>
+                <li><a href="#gitInstall">Install with Git</a></li>
             </ul>
-            
-            <h2>Introduction</h2>
-            
-            <p>UberGallery is an easy to use, simple to manage, web photo gallery written in PHP and dual licensed
-            under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a> and
-            <a href="http://www.gnu.org/licenses/gpl.txt">GNU General Public License (GPL) Version 3</a>. UberGallery
-            <strong>does not</strong> require a database and supports JPEG, GIF and PNG file types. Simply upload your images
-            and UberGallery will automatically generate thumbnails and output standards complaint XHTML markup
-            on the fly.</p>
-            
-            
+                
+                
             <div class="line"></div>
             
             
-            <h2>Features</h2>
-            
-            <ul id="featuresList" class="clearfix">
-                <li>Simple first time installation</li>
-                <li>Database-less configuration</li>
-                <li>Include galleries within pre-existing sites</li>
-                <li>Create multiple galleries with a single installation</li>
-                <li>Easily customize your gallery styles via CSS</li>
-                <li>Install and update the gallery easily wth Git (optional)</li>
-            </ul>
-            
-            
-            <div class="line"></div>
-            
-            
-            <h2>Requirements</h2>
-            
-            <p>UberGallery requires PHP 5.0+ and the PHP-GD image library to work properly.</p>
+            <a name="intro"></a>
+            <div class="contentBox">
+                <h2>Introduction</h2>
+                <div class="line"></div>
+                
+                <p>UberGallery is an easy to use, simple to manage, web photo gallery written in PHP and dual licensed
+                under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a> and
+                <a href="http://www.gnu.org/licenses/gpl.txt">GNU General Public License (GPL) Version 3</a>. UberGallery
+                <strong>does not</strong> require a database and supports JPEG, GIF and PNG file types. Simply upload your images
+                and UberGallery will automatically generate thumbnails and output standards complaint XHTML markup
+                on the fly.</p>
+            </div>
             
             
-            <div class="line"></div>
+            <a name="features"></a>
+            <div class="contentBox">
+                <h2>Features</h2>
+                <div class="line"></div>
+                
+                <ul id="featuresList" class="clearfix">
+                    <li>Simple first time installation</li>
+                    <li>Database-less configuration</li>
+                    <li>Include galleries within pre-existing sites</li>
+                    <li>Create multiple galleries with a single installation</li>
+                    <li>Easily customize your gallery styles via CSS</li>
+                    <li>Install and update the gallery easily wth Git (optional)</li>
+                </ul>
+            </div>
             
             
-            <h2>Simple Installation</h2>
-            
-            <p>Copy <code>resources/galleryConfig.ini-sample</code> to <code>resources/galleryConfig.ini</code> and modify the settings
-            to your liking.</p>
-            
-            <p>Upload <code>index.php</code>, <code>resources/</code> and <code>gallery-images/</code> to your web server where you would like the
-            gallery to be displayed.</p>
-            
-            <p>Upload images to the <code>gallery-images/</code> directory.</p>
-            
-            <p>Make the <code>resources/cache/</code> directory writable by the web server:</p>
-            
-            <pre>chmod 777 -R /path/to/resources/cache</pre>
-            
-            <p>Open your web browser and navigate to the directory where you installed UberGallery to have the
-            script generate thumbnails and display your images.</p>
+            <a name="requirements"></a>
+            <div class="contentBox">
+                <h2>Requirements</h2>
+                <div class="line"></div>
+                
+                <p>UberGallery requires PHP 5.0+ and the PHP-GD image library to work properly.</p>
+            </div>            
             
             
-            <div class="line"></div>
+            <a name="simpleInstall"></a>
+            <div class="contentBox">
+                <h2>Simple Installation</h2>
+                <div class="line"></div>
+                
+                <p>Copy <code>resources/galleryConfig.ini-sample</code> to <code>resources/galleryConfig.ini</code> and modify the settings
+                to your liking.</p>
+                
+                <p>Upload <code>index.php</code>, <code>resources/</code> and <code>gallery-images/</code> to your web server where you would like the
+                gallery to be displayed.</p>
+                
+                <p>Upload images to the <code>gallery-images/</code> directory.</p>
+                
+                <p>Make the <code>resources/cache/</code> directory writable by the web server:</p>
+                
+                <pre>chmod 777 -R /path/to/resources/cache</pre>
+                
+                <p>Open your web browser and navigate to the directory where you installed UberGallery to have the
+                script generate thumbnails and display your images.</p>
+            </div>
+                        
+                        
+            <a name="advancedInstall"></a>
+            <div class="contentBox">
+                <h2>Install to Pre-Existing Web Page</h2>
+                <div class="line"></div>
+                
+                <p>Copy <code>resources/galleryConfig.ini-sample</code> to <code>resources/galleryConfig.ini</code> and modify the settings to
+                your liking.</p>
+                
+                <p>Upload the <code>resources/</code> folder to your web server.</p>
+                
+                <p>Insert the following code into the PHP page where you would like the gallery to be displayed
+                (be sure to change the include and image folder path to match your configuration):</p>
+                
+                <pre>&lt;?php include_once('path/to/resources/UberGallery.php'); $gallery = UberGallery::init()-&gt;createGallery('path/to/images-folder'); ?&gt;</pre>
+                
+                <p>Include the UberGallery style sheet on your page:</p>
+                
+                <pre>&lt;link rel="stylesheet" type="text/css" href="path/to/resources/styles/ubergallery.css" /&gt;</pre>
+                
+                <p>Upload images to your images directory.</p>
+                
+                <p>Make the <code>resources/cache/</code> directory writable by the web server.</p>
+                
+                <pre>chmod 777 -R /path/to/resources/cache</pre>
+                
+                <p>Open your web browser and navigate to the directory where you installed UberGallery to have the
+                script generate thumbnails and display your images.</p>
+            </div>
+                        
+            
+            <a name="gitInstall"></a>
+            <div class="contentBox">
+                <h2>Install with Git</h2>
+                <div class="line"></div>
+                
+                <p>ssh into the your server and clone the UberGallery repository:</p>
+                
+                <pre>git clone git://github.com/UberGallery/UberGallery.git /path/to/gallery-directory</pre>
+                
+                <p>Copy <code>resources/galleryConfig.ini-sample</code> to <code>resources/galleryConfig.ini</code> and modify the settings</p>
+                
+                <pre>cp /path/to/gallery-directory/resource/galleryConfig.ini-sample /path/to/gallery-directory/resources/galleryConfig.ini<br/>nano /path/to/gallery-directory/resources/galleryConfig.ini</pre>
+                
+                <p>Upload images to the <code>gallery-images/</code> folder within your gallery directory.</p>
+                
+                <p>Make the <code>resources/cache/</code> directory writable by the web server.</p>
+                
+                <pre>chmod 777 -R /path/to/resources/cache</pre>
+                
+                <p>Open your web browser and navigate to the directory where you installed UberGallery to have the
+                script generate thumbnails and display your images.</p>
+                
+                <p><strong>NOTE:</strong> When using this method to install UberGallery, you may update your installation by running the
+                following commands:</p>
+                
+                <pre>cd /path/to/gallery-directory<br/>git pull origin master</pre>
+            </div>
             
             
-            <h2>Install to Pre-Existing Web Page</h2>
-            
-            <p>Copy <code>resources/galleryConfig.ini-sample</code> to <code>resources/galleryConfig.ini</code> and modify the settings to
-            your liking.</p>
-            
-            <p>Upload the <code>resources/</code> folder to your web server.</p>
-            
-            <p>Insert the following code into the PHP page where you would like the gallery to be displayed
-            (be sure to change the include and image folder path to match your configuration):</p>
-            
-            <pre>&lt;?php include_once('path/to/resources/UberGallery.php'); $gallery = UberGallery::init()-&gt;createGallery('path/to/images-folder'); ?&gt;</pre>
-            
-            <p>Include the UberGallery style sheet on your page:</p>
-            
-            <pre>&lt;link rel="stylesheet" type="text/css" href="path/to/resources/styles/ubergallery.css" /&gt;</pre>
-            
-            <p>Upload images to your images directory.</p>
-            
-            <p>Make the <code>resources/cache/</code> directory writable by the web server.</p>
-            
-            <pre>chmod 777 -R /path/to/resources/cache</pre>
-            
-            <p>Open your web browser and navigate to the directory where you installed UberGallery to have the
-            script generate thumbnails and display your images.</p>
-            
-            
-            <div class="line"></div>
-            
-            
-            <h2>Install with Git</h2>
-            
-            <p>ssh into the your server and clone the UberGallery repository:</p>
-            
-            <pre>git clone git://github.com/UberGallery/UberGallery.git /path/to/gallery-directory</pre>
-            
-            <p>Copy <code>resources/galleryConfig.ini-sample</code> to <code>resources/galleryConfig.ini</code> and modify the settings</p>
-            
-            <pre>cp /path/to/gallery-directory/resource/galleryConfig.ini-sample /path/to/gallery-directory/resources/galleryConfig.ini<br/>nano /path/to/gallery-directory/resources/galleryConfig.ini</pre>
-            
-            <p>Upload images to the <code>gallery-images/</code> folder within your gallery directory.</p>
-            
-            <p>Make the <code>resources/cache/</code> directory writable by the web server.</p>
-            
-            <pre>chmod 777 -R /path/to/resources/cache</pre>
-            
-            <p>Open your web browser and navigate to the directory where you installed UberGallery to have the
-            script generate thumbnails and display your images.</p>
-            
-            <p><strong>NOTE:</strong> When using this method to install UberGallery, you may update your installation by running the
-            following commands:</p>
-            
-            <pre>cd /path/to/gallery-directory<br/>git pull origin master</pre>
-            
-            
-            <div class="line"></div>
-            
-            
-            <h2>License</h2>
-            
-            <p>Copyright &copy; 2010 <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a></p>
-            
-            <p>UberGallery is dual licensed under the terms of the
-            <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a> and
-            <a href="http://www.gnu.org/licenses/gpl.txt">GNU General Public License (GPL) Version 3</a>.
+            <a name="license"></a>
+            <div class="contentBox">
+                <h2>License</h2>
+                <div class="line"></div>
+                
+                <p>Copyright &copy; 2010 <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a></p>
+                
+                <p>UberGallery is dual licensed under the terms of the
+                <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a> and
+                <a href="http://www.gnu.org/licenses/gpl.txt">GNU General Public License (GPL) Version 3</a>.
+            </div>
             
         </div>
     </div>
