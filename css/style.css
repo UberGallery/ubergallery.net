@@ -1,0 +1,119 @@
+/* -------------------------------------------------------------------------- */
+/* -----| GENERAL |---------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #355664;
+    color: #FFF;
+    font-family:  Arial, Helvetica, Verdana, sans-serif;
+    font-size: .85em;
+    line-height: 1.4em;
+    text-shadow: 1px 1px 1px #333;
+}
+
+a {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#pageWrap {
+    margin-bottom: 20px;
+}
+
+.widthConstraint {
+    margin: 0 auto;
+    position: relative;
+    width: 860px;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* -----| HEADER |----------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+#pageHeader {
+    background-color: #FFF;
+    color: #333;
+    margin: 20px 0;
+    padding: 20px 0;
+    /*-moz-box-shadow: 0 2px 4px #24404C;*/
+}
+
+#pageHeader h1 {
+    font-size: 2em;
+    margin: 0;
+    text-shadow: none;
+}
+
+#pageHeader p {
+    color: #999;
+    text-shadow: none;
+    margin: 3px 0;
+}
+
+#pageHeader p a {
+    color: #999;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* -----| NAVIGATION |----------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+#pageNavigation {
+    margin: 20px 0;
+    padding: 10px 0;
+    text-shadow: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/* -----| CONTENT |---------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+/* NULL */
+
+
+/* -------------------------------------------------------------------------- */
+/* -----| CODE FORMATTING |-------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+code {
+    background-color: #213E4A;
+    color: #FCFCFC;
+    font-size: 12px;
+    line-height: 1em;
+    margin: 0;
+    padding: 0 0.25em !important;
+}
+
+pre {
+    background-color: #213E4A !important;
+    color: #FCFCFC !important;
+    font-size: 11px !important;
+    margin: 1em 0 !important;
+    overflow: auto !important;
+    padding: 10px;
+    text-shadow: none;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* -----| MISCELLANEOUS |---------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+.line {
+    background-color: #24404C;
+    border-bottom: 1px solid #416371;
+    height: 1px;
+    margin: 1em 0;
+    overflow: hidden;
+}
+
