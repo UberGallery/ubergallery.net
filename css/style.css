@@ -52,9 +52,9 @@ a:hover {
 }
 
 #downloadLink {
-    background: #DEDEDE url(../images/sub_black_down.png) no-repeat -7px -7px;
+    background: #8B0 url(../images/arrow_full_down_32.png) no-repeat 10px center;
     border-radius: 5px;
-    color: #333;
+    color: #000;
     display: inline-block;
     margin-top: 5px;
     padding: 10px 10px 10px 48px;
@@ -64,14 +64,19 @@ a:hover {
     -webkit-border-radius: 5px;
 }
 
+#downloadLink:hover {
+    background-color: #7A0;
+}
+
 #downloadLink .title {
-    font-size: 1.2em;
+    display: block;
+    font-size: 1.25em;
     font-weight: bold;
     letter-spacing: .6px;
 }
 
-#downloadLink .lastUpdate {
-    color: #707070;
+#downloadLink .version {
+    display: block;
     font-size: .95em;
     letter-spacing: .6px;
 }
@@ -110,7 +115,7 @@ a:hover {
 
 
 /* -------------------------------------------------------------------------- */
-/* -----| NAVIGATION |----------------------------------------------------------- */
+/* -----| NAVIGATION |------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
 
 #pageNavigation {
