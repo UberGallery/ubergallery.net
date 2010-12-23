@@ -72,13 +72,13 @@ a:hover {
     display: block;
     font-size: 1.25em;
     font-weight: bold;
-    letter-spacing: .6px;
+    letter-spacing: .5px;
 }
 
 #downloadLink .version {
     display: block;
     font-size: .95em;
-    letter-spacing: .6px;
+    letter-spacing: .5px;
 }
 
 #titleImage {
@@ -177,6 +177,17 @@ a:hover {
 h2 {
     font-size: 1.6em;
     letter-spacing: 1px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1.1em;
     margin: 0;
 }
 
