@@ -246,16 +246,7 @@ pre {
 }
 
 #demoLink {
-    background-color: #88BB00;
-    border-radius: 5px;
-    color: #000;
-    display: inline-block;
-    font-size: 1.2em;
-    margin-top: 2px;
+    font-size: 1.5em;
     padding: 10px;
-    text-decoration: none;
-    text-shadow: none;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
 }
 
