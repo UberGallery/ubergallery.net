@@ -41,7 +41,7 @@ a:hover {
 #pageHeader {
     background-color: #FFF;
     color: #333;
-    margin: 40px 0;
+    margin: 30px 0;
     padding: 20px 0;
     /*-moz-box-shadow: 0 2px 4px #24404C;*/
 }
@@ -241,7 +241,7 @@ pre {
     background-color: #24404C;
     border-bottom: 1px solid #416371;
     height: 1px;
-    margin: 2em 0;
+    margin: 30px 0;
     overflow: hidden;
 }
 
