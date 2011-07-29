@@ -208,6 +208,20 @@ h4 {
     width: 48%;
 }
 
+.shareBox {
+    margin-bottom: 20px;
+}
+
+.shareBox span {
+    display: inline-block;
+    margin: 0 1%;
+    width: 48%;
+}
+
+.shareBox span.floatLeft {
+    text-align: right;
+}
+
 
 /* -------------------------------------------------------------------------- */
 /* -----| CODE FORMATTING |-------------------------------------------------- */
