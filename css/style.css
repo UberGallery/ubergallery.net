@@ -208,24 +208,19 @@ h4 {
     width: 48%;
 }
 
-.shareBox {
-    margin-bottom: 5px;
+#footerTable {
+    margin: 0 auto 20px;
+    width: 450px;
 }
 
-.shareBox span {
-    display: inline-block;
-    margin: 0 1%;
-    width: 48%;
+#footerTable tr {
+    vertical-align: top;
 }
 
-.shareBox span.floatLeft {
-    text-align: right;
-}
-
-
-.donateBox {
-    margin-bottom: 20px;
+#footerTable tr td {
+    padding: 0;
     text-align: center;
+    width: 33%;
 }
 
 
