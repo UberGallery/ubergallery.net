@@ -209,7 +209,7 @@ h4 {
 }
 
 .shareBox {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .shareBox span {
@@ -220,6 +220,12 @@ h4 {
 
 .shareBox span.floatLeft {
     text-align: right;
+}
+
+
+.donateBox {
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 
