@@ -166,6 +166,10 @@ a:hover {
     line-height: 1.5em;
 }
 
+#pageContent p {
+    text-align: justify;
+}
+
 .contentBox {
     background-color: #213E4A;
     border-radius: 5px;
@@ -221,6 +225,26 @@ h4 {
     padding: 0;
     text-align: center;
     width: 33%;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* -----| FREQUENTLY ASKED QUESTIONS |--------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+#faqList {
+    margin: 0;
+}
+
+#faqList dt {
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+#faqList dd {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    text-align: justify;
 }
 
 
