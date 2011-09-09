@@ -212,10 +212,6 @@ h4 {
     width: 48%;
 }
 
-#demoLink {
-    text-align: center !important;
-}
-
 #footerTable {
     margin: 0 auto 20px;
     width: 450px;
@@ -298,5 +294,9 @@ pre {
 #demoLink {
     font-size: 1.5em;
     padding: 10px;
+}
+
+.alignCenter {
+    text-align: center !important;
 }
 
