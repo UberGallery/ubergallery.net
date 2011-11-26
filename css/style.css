@@ -32,6 +32,19 @@ a:hover {
     width: 760px;
 }
 
+#topButton {
+    background: #000 url(../images/arrow_up_24.png) no-repeat center center;
+    background-color: rgba(0,0,0,.75);
+    border-radius: 5px;
+    bottom: 10px;
+    display: inline-block;
+    height: 24px;
+    padding: 8px;
+    position: fixed;
+    right: 10px;
+    width: 24px;
+}
+
 #forkMeBanner {
     display: inline-block;
     position: absolute;
@@ -62,19 +75,26 @@ a:hover {
 }
 
 #downloadLink {
-    background: #8B0 url(../images/arrow_full_down_32.png) no-repeat 10px center;
+    background-color: #8B0;
+    background: -moz-linear-gradient(top, #9C1, #7A0);
     border-radius: 5px;
     color: #000;
     display: inline-block;
     margin-top: 2px;
-    padding: 10px 10px 10px 48px;
+    padding: 10px;
     text-decoration: none;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+    text-shadow: 0 1px 0 #AD3;
 }
 
 #downloadLink:hover {
     background-color: #7A0;
+    background: -moz-linear-gradient(top, #8B0, #690);
+    text-shadow: 0 1px 0 #9C2;
+}
+
+#downloadLinkInner {
+    background: transparent url(../images/arrow_full_down_32.png) no-repeat left center;
+    padding-left: 40px;
 }
 
 #downloadLink .title {
@@ -143,7 +163,7 @@ a:hover {
     display: block;
     padding: 10px 12px;
     text-decoration: none;
-    text-shadow: 0 1px 0 #FFF;
+    text-shadow: 0 1px 0 #F6F6F6;
 }
 
 #pageNavigation li.first a, #pageNavigation li.first .fakeLink {
@@ -169,7 +189,7 @@ a:hover {
 #pageNavigation ul {
     background-color: #BCBCBC;
     display: none;
-    left: 1px;
+    left: 0;
     margin: 0;
     position: absolute;
     top: 100%;

@@ -9,6 +9,9 @@
     <link rel="stylesheet" type="text/css" href="css/rebase-min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/ubergallery.js"></script>
+    
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-19466324-2']);
@@ -39,8 +42,10 @@
             </div>
             
             <a href="https://github.com/UberGallery/UberGallery/downloads" id="downloadLink" class="floatRight">
-                <span class="title">Download UberGallery</span>
-                <span class="version">Current Version: 2.2.5</span>
+                <div id="downloadLinkInner">
+                    <span class="title">Download UberGallery</span>
+                    <span class="version">Current Version: 2.2.5</span>
+                </div>
             </a>
             
             <div id="titleImage"></div>
@@ -61,7 +66,7 @@
                         <li><a href="#gitInstall">Install with Git</a></li>
                     </ul>
                 </li>
-                
+                <li><a href="http://news.ubergallery.net">News</a></li>
                 <li><a href="#faq">F.A.Q.</a></li>
                 <li><a href="#support">Support</a></li>
                 <li class="last"><a href="#license">License</a></li>
@@ -254,6 +259,7 @@
         </div>
     </div>
     
+    <a href="#top" id="topButton"></a>
     <a href="https://github.com/UberGallery/UberGallery" id="forkMeBanner"><img src="images/fork_me_banner.png" alt="Fork me on GitHub" /></a>
     
 </body>
