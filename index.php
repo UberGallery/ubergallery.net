@@ -80,9 +80,15 @@
                 <li><a href="#support">Support</a></li>
                 
                 <li class="followLinks">
-                    Follow UberGallery:
-                    <a title="Google Plus" href="https://plus.google.com/115640585160898226187/" class="googlePlus"><span class="hidden">Google Plus</span></a>
-                    <a title="Twitter" href="http://twitter.com/UberGallery" class="twitter"><span class="hidden">Twitter</span></a>
+                    <div class="followLinksInner">
+                        Follow UberGallery:
+                        <a title="Google Plus" href="https://plus.google.com/115640585160898226187/">
+                            <img src="images/icons/google_plus_16.png" width="16" height="16" />
+                        </a>
+                        <a title="Twitter" href="http://twitter.com/UberGallery" class="twitter">
+                            <img src="images/icons/twitter_16.png" width="16" height="16" />
+                        </a>
+                    </div>
                 </li>
             </ul>
             
