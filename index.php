@@ -85,7 +85,7 @@
                         <a title="Google Plus" href="https://plus.google.com/115640585160898226187/">
                             <img src="images/icons/google_plus_16.png" width="16" height="16" />
                         </a>
-                        <a title="Twitter" href="http://twitter.com/UberGallery" class="twitter">
+                        <a title="Twitter" href="http://twitter.com/#!/UberGallery" class="twitter">
                             <img src="images/icons/twitter_16.png" width="16" height="16" />
                         </a>
                     </div>
@@ -259,9 +259,9 @@
                         <dd>Yes, UberGallery is open source and released under the <a href="COPYING-MIT.txt">MIT</a> and <a href="COPYING-GPL.txt">GPLv3</a> licenses. The rights granted by these licenses should be sufficient to suit any situation. Also, while not required, it's encouraged that you leave the "Powered by, UberGallery" link below the gallery list.</dd>
                         
                     <dt>How can I get news and updates pertaining to UberGallery?</dt>
-                        <dd>You can follow us on Twitter: <a href="http://twitter.com/#!/ubergallery">@UberGallery</a></dd>
+                        <dd>You can follow us on Twitter: <a href="https://twitter.com/#!/UberGallery">@UberGallery</a></dd>
                         <dd>We also have a blog at <a href="http://news.ubergallery.net">http://news.ubergallery.net</a></dd>
-                        <dd>You can subscribe to the blog feed at <a href="http://news.ubergallery.net/rss">http://news.ubergallery.net/rss</a></dd>
+                        <dd>You can subscribe to the blog feed at <a href="http://news.ubergallery.net/feed">http://news.ubergallery.net/feed</a></dd>
                         
                     <dt>Can you add X as a feature?</dt>
                         <dd>At the moment I'm the sole developer of UberGallery and my time is severly limited thus limiting my ability to add new features.  However, UberGallery is open source and hosted on <a href="https://github.com/UberGallery/UberGallery">Github</a>.  This means you are allowed to fork the code and make changes to suit your needs. You're also encourage to submit a pull request of the changes you make so I may review your changes and, upon approval, merge them into the UberGallery code base.</dd>
@@ -273,8 +273,8 @@
                 <h2>Support</h2>
                 <div class="line"></div>
                 
-                <p>If you have any questions or comments, please email me at: <a href="mailto:Chris@ChrisKankiewicz.com">Chris@ChrisKankiewicz.com</a></p>
-                <p>UberGallery updates and news can be found on our <a href="http://news.ubergallery.net/">Tumblr blog</a> or by <a href="http://twitter.com/ubergallery">following us on Twitter</a>.</p>
+                <p>If you have any questions or comments, send an email to: <a href="mailto:Chris@ChrisKankiewicz.com">Chris@ChrisKankiewicz.com</a></p>
+                <p>UberGallery updates and news can be found on our <a href="http://news.ubergallery.net/">blog</a> or by <a href="https://twitter.com/#!/UberGallery">following us on Twitter</a>.</p>
                 <p>To report a bug, visit the issue tracker on Github at: <a href="http://github.com/UberGallery/ubergallery/issues">http://github.com/UberGallery/ubergallery/issues</a></p>
             </div>
             
