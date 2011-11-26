@@ -1,3 +1,6 @@
 [submodule "demo"]
 	path = demo
 	url = git://github.com/UberGallery/UberGallery.git
+[submodule "multi-gallery"]
+	path = multi-gallery
+	url = git://github.com/UberGallery/multi-gallery-example.git

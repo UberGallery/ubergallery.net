@@ -150,7 +150,7 @@
                 <div class="line"></div>
                 
                 <div id="demoLinks" >
-                    <p class="alignCenter"><a href="/demo">View the Stand-alone Demo</a> | <a href="http://demo.ubergallery.net/multi-gallery/">View the Multi-directory Demo</a></p>
+                    <p class="alignCenter"><a href="/demo">View the Stand-alone Demo</a> | <a href="/multi-gallery/">View the Multi-directory Demo</a></p>
                 </div>
                 
             </div>
