@@ -8,9 +8,18 @@
     
     <link rel="stylesheet" type="text/css" href="css/rebase-min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/UberGallery.css" />
+    <link rel="stylesheet" type="text/css" href="demo/resources/colorbox/5/colorbox.css" />
     
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="demo/resources/colorbox/jquery.colorbox.js"></script>
     <script type="text/javascript" src="js/ubergallery.js"></script>
+    
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $("a[rel='colorbox']").colorbox({maxWidth: "90%", maxHeight: "90%", opacity: ".5"});
+    });
+    </script>
     
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -105,12 +114,43 @@
                 <h2>Demo</h2>
                 <div class="line"></div>
                 
-                <p>Demo placeholder</p>
+                <?php
+                    // Include the UberGallery class
+                    include('demo/resources/UberGallery.php');
+                    
+                    // Initialize the UberGallery object
+                    $gallery = new UberGallery();
+                    
+                    // Initialize the gallery array
+                    $galleryArray = $gallery->readImageDirectory('demo/gallery-images');
+                ?>
+                
+                <!-- Start UberGallery v<?php echo UberGallery::VERSION; ?> - Copyright (c) <?php echo date('Y'); ?> Chris Kankiewicz (http://www.ChrisKankiewicz.com) -->
+                <div id="galleryWrapper">
+                    <?php if($gallery->getSystemMessages()): ?>
+                        <ul id="systemMessages">
+                            <?php foreach($gallery->getSystemMessages() as $message): ?>
+                                <li class="<?php echo $message['type']; ?>">
+                                    <?php echo $message['text']; ?>
+                                </li>
+                            <?php endforeach; ?>
+                        </ul>
+                    <?php endif; ?>
+                    
+                    <div id="galleryListWrapper">
+                        <ul id="galleryList" class="clearfix">
+                            <?php foreach ($galleryArray['images'] as $image): ?>
+                                <li><a href="<?php echo $image['file_path']; ?>" title="<?php echo $image['file_title']; ?>" rel="colorbox"><img src="<?php echo $image['thumb_path']; ?>" alt="<?php echo $image['file_title']; ?>"/></a></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End UberGallery - Dual licensed under the MIT & GPL license -->
                 
                 <div class="line"></div>
                 
                 <div id="demoLinks" >
-                    <p class="alignCenter"><a href="http://demo.ubergallery.net">View the Stand-alone Demo</a> | <a href="http://demo.ubergallery.net/multi-gallery/">View the Multi-directory Demo</a></p>
+                    <p class="alignCenter"><a href="/demo">View the Stand-alone Demo</a> | <a href="http://demo.ubergallery.net/multi-gallery/">View the Multi-directory Demo</a></p>
                 </div>
                 
             </div>
