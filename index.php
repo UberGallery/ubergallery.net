@@ -68,8 +68,7 @@
                 </li>
                 <li><a href="http://news.ubergallery.net">News</a></li>
                 <li><a href="#faq">F.A.Q.</a></li>
-                <li><a href="#support">Support</a></li>
-                <li class="last"><a href="#license">License</a></li>
+                <li class="last"><a href="#support">Support</a></li>
             </ul>
             
                 
@@ -223,20 +222,16 @@
                 <p>If you have any questions or comments, please email me at: <a href="mailto:Chris@ChrisKankiewicz.com">Chris@ChrisKankiewicz.com</a></p>
                 <p>UberGallery updates and news can be found on our <a href="http://news.ubergallery.net/">Tumblr blog</a> or by <a href="http://twitter.com/ubergallery">following us on Twitter</a>.</p>
                 <p>To report a bug, visit the issue tracker on Github at: <a href="http://github.com/UberGallery/ubergallery/issues">http://github.com/UberGallery/ubergallery/issues</a></p>
-            </div> 
-            
-            
-            <div class="contentBox" id="license">
-                <h2>License</h2>
-                <div class="line"></div>
-                
-                <p>Copyright &copy; 2011 <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a></p>
-                
-                <p>UberGallery is dual licensed under the terms of the
-                <a href="COPYING-MIT.txt">MIT License</a> and
-                <a href="COPYING-GPL.txt">GNU General Public License (GPL) Version 3</a>.</p>
             </div>
             
+            <div id="footerText">
+                <div id="footerTextInner">
+                    <p>Copyright &copy; <?php echo date('Y'); ?> <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a></p>
+                    
+                    <p>UberGallery is dual licensed under the terms of the <a href="COPYING-MIT.txt">MIT</a> and <a href="COPYING-GPL.txt">GPL v3</a> licenses.</p>
+                </div>            
+            </div>            
+
             <table id="footerTable" cellpadding="0" cellspacing="0">
                 <tr>
                     <td>
