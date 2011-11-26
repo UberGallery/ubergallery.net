@@ -75,9 +75,9 @@
                         <li><a href="#gitInstall">Install with Git</a></li>
                     </ul>
                 </li>
-                <li><a href="http://news.ubergallery.net"><span class="externalLink">News</span></a></li>
                 <li><a href="#faq">F.A.Q.</a></li>
                 <li><a href="#support">Support</a></li>
+                <li><a href="http://news.ubergallery.net"><span class="externalLink">News</span></a></li>
                 
                 <li class="followLinks">
                     <div class="followLinksInner">
