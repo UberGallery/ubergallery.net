@@ -187,6 +187,7 @@ a:hover {
     background: -moz-linear-gradient(top, #EEE, #BCBCBC);
     background: -webkit-linear-gradient(top, #EEE, #BCBCBC);
     cursor: pointer;
+    text-shadow: 0 1px 0 #E6E6E6;
 }
 
 
@@ -221,6 +222,8 @@ a:hover {
 }
 
 #pageNavigation ul li:hover a {
+    background-color: #ABABAB !important;
+    text-shadow: 0 1px 0 #D6D6D6 !important;
 }
 
 
