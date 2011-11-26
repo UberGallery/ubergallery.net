@@ -410,6 +410,11 @@ pre {
     overflow: hidden;
 }
 
+.externalLink {
+    background: transparent url(../images/icons/external_link.png) no-repeat right center;
+    padding-right: 14px;
+}
+
 #demoLinks {
     font-size: 1.25em;
 }
