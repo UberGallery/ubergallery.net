@@ -183,7 +183,9 @@ a:hover {
 } */
 
 #pageNavigation li:hover a, #pageNavigation li:hover .fakeLink {
+    background-color: #DEDEDE;
     background: -moz-linear-gradient(top, #EEE, #BCBCBC);
+    background: -webkit-linear-gradient(top, #EEE, #BCBCBC);
     cursor: pointer;
 }
 
