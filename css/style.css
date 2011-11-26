@@ -226,6 +226,48 @@ a:hover {
     text-shadow: 0 1px 0 #D6D6D6 !important;
 }
 
+/* ----- FOLLOW LINKS ----- */
+
+#pageNavigation .followLinks {
+    color: #555;
+    display: block;
+    float: right;
+    padding: 10px 12px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #F6F6F6;
+}
+
+#pageNavigation .followLinks a {
+    background: transparent none;
+    display: inline-block;
+    height: 16px;
+    margin: 0 0 0 3px;
+    padding: 0;
+    position: relative;
+    top: 3px;
+    width: 16px;
+}
+
+#pageNavigation .followLinks a.googlePlus {
+    background: transparent url(../images/icons/google_plus_16.png) no-repeat center center;
+}
+
+#pageNavigation .followLinks a.rss {
+    background: transparent url(../images/icons/rss_16.png) no-repeat center center;
+}
+
+#pageNavigation .followLinks a.twitter {
+    background: transparent url(../images/icons/twitter_16.png) no-repeat center center;
+}
+
+#pageNavigation .followLinks a.youtube {
+    background: transparent url(../images/icons/youtube_16.png) no-repeat center center;
+}
+
+#pageNavigation .followLinks a.wordpress {
+    background: transparent url(../images/icons/wordpress_16.png) no-repeat center center;
+}
+
 
 /* -------------------------------------------------------------------------- */
 /* -----| CONTENT |---------------------------------------------------------- */

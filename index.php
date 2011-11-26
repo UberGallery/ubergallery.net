@@ -77,7 +77,13 @@
                 </li>
                 <li><a href="http://news.ubergallery.net">News</a></li>
                 <li><a href="#faq">F.A.Q.</a></li>
-                <li class="last"><a href="#support">Support</a></li>
+                <li><a href="#support">Support</a></li>
+                
+                <li class="followLinks">
+                    Follow UberGallery:
+                    <a title="Google Plus" href="https://plus.google.com/115640585160898226187/" class="googlePlus"><span class="hidden">Google Plus</span></a>
+                    <a title="Twitter" href="http://twitter.com/UberGallery" class="twitter"><span class="hidden">Twitter</span></a>
+                </li>
             </ul>
             
                 
