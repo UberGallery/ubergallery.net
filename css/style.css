@@ -380,9 +380,12 @@ pre {
     overflow: hidden;
 }
 
-#demoLink {
-    font-size: 1.5em;
-    padding: 10px;
+#demoLinks {
+    font-size: 1.25em;
+}
+
+#demoLinks p {
+    margin: 0;
 }
 
 .alignCenter {
