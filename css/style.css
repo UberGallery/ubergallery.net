@@ -126,35 +126,75 @@ a:hover {
 /* -------------------------------------------------------------------------- */
 
 #pageNavigation {
-    background-color: #213E4A;
+    background: -moz-linear-gradient(top, #FFF, #CDCDCD);
     border-radius: 5px;
     margin: 30px 0;
-    padding: 8px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+    padding: 0;
 }
 
 #pageNavigation li {
     float: left;
     list-style: none;
-    margin-right: 5px;
+    position: relative;
 }
 
-#pageNavigation li a {
-    border: 1px solid transparent;
-    color: #FFF;
+#pageNavigation li a, #pageNavigation li .fakeLink {
+    color: #555;
     display: block;
-    padding: 4px 6px;
+    padding: 10px 12px;
     text-decoration: none;
+    text-shadow: 0 1px 0 #FFF;
 }
 
-#pageNavigation li a:hover {
-    background-color: #15242A;
-    border-top: 1px solid #132228;
-    border-left: 1px solid #132228;
-    border-right: 1px solid #204656;
-    border-bottom: 1px solid #204656;
-    color: #FFF;
+#pageNavigation li.first a, #pageNavigation li.first .fakeLink {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-left: none;
+}
+
+/* #pageNavigation li.last a, #pageNavigation li.last .fakeLink {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-right: none;
+} */
+
+#pageNavigation li:hover a, #pageNavigation li:hover .fakeLink {
+    background: -moz-linear-gradient(top, #EEE, #BCBCBC);
+    cursor: pointer;
+}
+
+
+/* ----- SUB NAVIGATION ----- */
+
+#pageNavigation ul {
+    background-color: #BCBCBC;
+    display: none;
+    left: 1px;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+}
+
+
+#pageNavigation li:hover ul {
+    display: block;
+}
+
+
+#pageNavigation ul li {
+    float: none;
+    margin: 0;
+    width: 100%;
+}
+
+#pageNavigation ul li a {
+    background: transparent !important;
+    border: none;
+    display: block;
+    white-space: nowrap;
+}
+
+#pageNavigation ul li:hover a {
 }
 
 
@@ -194,7 +234,7 @@ h2 {
 h3 {
     font-size: 1.3em;
     letter-spacing: 1px;
-    margin: 0;
+    margin: 2em 0 1em;
 }
 
 h4 {

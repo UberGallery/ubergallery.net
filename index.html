@@ -23,6 +23,7 @@
       })();
     </script>
     
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta itemprop="name" content="UberGallery - The simple PHP photo gallery">
     <meta itemprop="description" content="UberGallery is an easy to use, simple to manage, web photo gallery written in PHP and dual licensed under the MIT License and GNU General Public License (GPL) Version 3. UberGallery does not require a database and supports JPEG, GIF and PNG file types. Simply upload your images and UberGallery will automatically generate thumbnails and output standards compliant XHTML markup on the fly.">
     <meta itemprop="image" content="http://www.ubergallery.net/images/photo.png">
@@ -50,20 +51,23 @@
         <div class="widthConstraint">
             
             <ul id="pageNavigation" class="clearfix">
-                <li><a href="#intro">Introduction</a></li>
-                <li><a href="#requirements">Requirements</a></li>
-                <li><a href="#simpleInstall">Simple Installation</a></li>
-                <li><a href="#customInstall">Custom Installation</a></li>
-                <li><a href="#gitInstall">Install with Git</a></li>
+                <li class="first"><a href="#intro">Introduction</a></li>
+                <li><a href="#">Demo</a></li>
+                <li>
+                    <span class="fakeLink">Installation ▾</span>
+                    <ul>
+                        <li><a href="#simpleInstall">Simple Installation</a></li>
+                        <li><a href="#customInstall">Custom Installation</a></li>
+                        <li><a href="#gitInstall">Install with Git</a></li>
+                    </ul>
+                </li>
+                
                 <li><a href="#faq">F.A.Q.</a></li>
                 <li><a href="#support">Support</a></li>
-                <li><a href="#license">License</a></li>
+                <li class="last"><a href="#license">License</a></li>
             </ul>
             
                 
-            <div class="line"></div>
-            
-            
             <div class="contentBox" id="intro">
                 <h2>Introduction</h2>
                 <div class="line"></div>
@@ -86,20 +90,16 @@
                     <li>Install and update the gallery easily wth Git (optional)</li>
                 </ul>
                 
+                <h3>Requirements</h3>
+                
+                <p>UberGallery requires PHP 5.0+ and the PHP-GD image library to work properly. For more information on PHP and the PHP-GD image library, please visit <a href="http://php.net">http://php.net</a>.</p>
+                
                 <div class="line"></div>
                 
                 <p class="alignCenter"><a href="http://demo.ubergallery.net" id="demoLink">View the Demo</a></p>
             </div>
             
-            
-            <div class="contentBox" id="requirements">
-                <h2>Requirements</h2>
-                <div class="line"></div>
-                
-                <p>UberGallery requires PHP 5.0+ and the PHP-GD image library to work properly. For more information on PHP and the PHP-GD image library, please visit <a href="http://php.net">http://php.net</a>.</p>
-            </div>            
-            
-            
+                        
             <div class="contentBox" id="simpleInstall">
                 <h2>Simple Installation</h2>
                 <div class="line"></div>
