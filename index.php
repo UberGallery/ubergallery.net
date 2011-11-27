@@ -85,8 +85,11 @@
                         <a title="Google Plus" href="https://plus.google.com/115640585160898226187/">
                             <img src="images/icons/google_plus_16.png" width="16" height="16" />
                         </a>
-                        <a title="Twitter" href="http://twitter.com/#!/UberGallery" class="twitter">
+                        <a title="Twitter" href="http://twitter.com/#!/UberGallery">
                             <img src="images/icons/twitter_16.png" width="16" height="16" />
+                        </a>
+                        <a title="Github" href="https://github.com/UberGallery">
+                            <img src="images/icons/github_16.png" width="16" height="16" />
                         </a>
                     </div>
                 </li>
