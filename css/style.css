@@ -229,7 +229,7 @@ a:hover {
 /* ----- FOLLOW LINKS ----- */
 
 #pageNavigation .followLinks {
-    border-left: 1px solid #FFF;
+    border-left: 1px solid #CDCDCD;
     color: #555;
     display: block;
     float: right;
@@ -238,7 +238,7 @@ a:hover {
 }
 
 #pageNavigation .followLinks .followLinksInner {
-    border-left: 1px solid #CDCDCD;
+    border-left: 1px solid #FFF;
     padding: 9px 12px;
 }
 
