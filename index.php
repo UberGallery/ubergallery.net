@@ -68,7 +68,7 @@
                 <li class="first"><a href="#intro">Introduction</a></li>
                 <li><a href="#demo">Demo</a></li>
                 <li>
-                    <a href="#simpleInstall">Installation ▾</a>
+                    <a href="#simpleInstall"><span class="dropDownLink">Installation</span></a>
                     <ul>
                         <li><a href="#simpleInstall">Simple Installation</a></li>
                         <li><a href="#customInstall">Custom Installation</a></li>

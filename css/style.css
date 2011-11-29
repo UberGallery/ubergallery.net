@@ -402,6 +402,11 @@ pre {
     overflow: hidden;
 }
 
+.dropDownLink {
+    background: transparent url(../images/icons/down_triangle.png) no-repeat right center;
+    padding-right: 12px;
+}
+
 .externalLink {
     background: transparent url(../images/icons/external_link.png) no-repeat right center;
     padding-right: 14px;
