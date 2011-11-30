@@ -4,7 +4,7 @@
 
 <head>
     <title>UberGallery - The simple PHP photo gallery</title>
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/icons/favicon.png" type="image/x-icon" />
     
     <link rel="stylesheet" type="text/css" href="css/rebase-min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
