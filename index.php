@@ -120,7 +120,7 @@
                 
                 <h3>Requirements</h3>
                 
-                <p>UberGallery requires PHP 5.0+ and the PHP-GD image library to work properly. For more information on PHP and the PHP-GD image library, please visit <a href="http://php.net">http://php.net</a>.</p>
+                <p>UberGallery requires PHP 5.2+ and the PHP-GD image library to work properly. For more information on PHP and the PHP-GD image library, please visit <a href="http://php.net">http://php.net</a>.</p>
                 
             </div>
             
