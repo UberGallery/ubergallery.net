@@ -302,7 +302,7 @@ h4 {
 
 #footerTable {
     margin: 0 auto 20px;
-    width: 450px;
+    width: 300px;
 }
 
 #footerTable tr {
@@ -420,7 +420,17 @@ pre {
     margin: 0;
 }
 
+.alignLeft{
+    text-align: left !important;
+}
+
 .alignCenter {
     text-align: center !important;
 }
+
+.alignRight {
+    text-align: right !important;
+}
+
+
 

@@ -81,7 +81,7 @@
                 
                 <li class="followLinks">
                     <div class="followLinksInner">
-                        Follow UberGallery:
+                        Follow:
                         <a title="Google Plus" href="https://plus.google.com/115640585160898226187/">
                             <img src="images/icons/google_plus_16.png" width="16" height="16" />
                         </a>
@@ -293,7 +293,7 @@
                 <tr>
                     <td>
                         <!-- Place this tag where you want the +1 button to render -->
-                        <g:plusone></g:plusone>
+                        <g:plusone size="medium" href="http://www.ubergallery.net"></g:plusone>
                         
                         <!--  Place this tag after the last plusone tag -->
                         <script type="text/javascript">
@@ -305,15 +305,7 @@
                         </script>
                     </td>
                     <td>
-                        <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.ubergallery.net%2F&amp;send=false&amp;layout=button_count&amp;width=106&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:106px; height:21px;" allowTransparency="true"></iframe>
-                    </td>
-                    <td>
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="CWZX8QW97BKAA">
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
+                        <div class="fb-like" data-href="http://www.ubergallery.net" data-send="false" data-layout="button_count" data-width="90" data-show-faces="true"></div>
                     </td>
                 </tr>
             </table>
@@ -323,6 +315,28 @@
     
     <a href="#" title="Top of Page" id="topButton" style="display: none;"></a>
     <a href="https://github.com/UberGallery/UberGallery" id="forkMeBanner"><img src="images/fork_me_banner.png" alt="Fork me on GitHub" /></a>
+    
+    <!-- Plus One Button -->
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+    
+        
+    <!-- Like Button -->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
     
 </body>
 </html>
