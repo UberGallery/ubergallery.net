@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/UberGallery.css" />
     <link rel="stylesheet" type="text/css" href="demo/resources/colorbox/5/colorbox.css" />
     
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
     <script type="text/javascript" src="demo/resources/colorbox/jquery.colorbox.js"></script>
     <script type="text/javascript" src="js/ubergallery.js"></script>
     
@@ -208,7 +208,7 @@
                 <pre>&lt;link rel="stylesheet" type="text/css" href="path/to/resources/UberGallery.css" /&gt;<br/>&lt;link rel="stylesheet" type="text/css" href="path/to/resources/colorbox/{1-5}/colorbox.css" /&gt;</pre>
                 
                 <p>Include the jQuery and Colorbox javascript files in your page header:</p>
-                <pre>&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"&gt;&lt;/script&gt;<br/>&lt;script type="text/javascript" src="path/to/resources/colorbox/jquery.colorbox.js"&gt;&lt;/script&gt;</pre>
+                <pre>&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"&gt;&lt;/script&gt;<br/>&lt;script type="text/javascript" src="path/to/resources/colorbox/jquery.colorbox.js"&gt;&lt;/script&gt;</pre>
                 
                 <p>Include the Colorbox jQuery call in your header (below the jQuery and Colorbox javascript includes):</p>
                 <pre>&lt;script type="text/javascript"&gt;<br/>$(document).ready(function(){<br/>    $("a[rel='colorbox']").colorbox({maxWidth: "90%", maxHeight: "90%", opacity: ".5"});<br/>});<br/>&lt;/script&gt;</pre>
