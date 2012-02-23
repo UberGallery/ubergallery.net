@@ -53,7 +53,7 @@
             <a href="https://github.com/UberGallery/UberGallery/downloads" id="downloadLink" class="floatRight">
                 <div id="downloadLinkInner">
                     <span class="title">Download UberGallery</span>
-                    <span class="version">Current Version: 2.2.7</span>
+                    <span class="version">Current Version: 2.2.8</span>
                 </div>
             </a>
             
