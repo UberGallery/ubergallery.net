@@ -100,12 +100,11 @@
                 <h2>Introduction</h2>
                 <div class="line"></div>
                 
-                <p>UberGallery is an easy to use, simple to manage, web photo gallery written in PHP and dual licensed
-                under the <a href="COPYING-MIT.txt">MIT License</a> and
-                <a href="COPYING-GPL.txt">GNU General Public License (GPL) Version 3</a>. UberGallery
-                <strong>does not</strong> require a database and supports JPEG, GIF and PNG file types. Simply upload your images
-                and UberGallery will automatically generate thumbnails and output standards compliant XHTML markup
-                on the fly.</p>
+                <p>UberGallery is an easy to use, simple to manage, web photo gallery written in PHP
+                and distributed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.
+                UberGallery <strong>does not</strong> require a database and supports JPEG, GIF and
+                PNG file types. Simply upload your images and UberGallery will automatically
+                generate thumbnails and output standards compliant XHTML markup on the fly.</p>
                 
                 <h3>Features</h3>
                 
@@ -120,7 +119,9 @@
                 
                 <h3>Requirements</h3>
                 
-                <p>UberGallery requires PHP 5.2+ and the PHP-GD image library to work properly. For more information on PHP and the PHP-GD image library, please visit <a href="http://php.net">http://php.net</a>.</p>
+                <p>UberGallery requires PHP 5.2+ and the PHP-GD image library to work properly.
+                For more information on PHP and the PHP-GD image library, please visit
+                <a href="http://php.net">http://php.net</a>.</p>
                 
             </div>
             
@@ -283,9 +284,8 @@
             
             <div id="footerText">
                 <div id="footerTextInner">
+                    <p>UberGallery is distributed under the terms of the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.</p>
                     <p>Copyright &copy; <?php echo date('Y'); ?> <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a></p>
-                    
-                    <p>UberGallery is dual licensed under the terms of the <a href="COPYING-MIT.txt">MIT</a> and <a href="COPYING-GPL.txt">GPL v3</a> licenses.</p>
                 </div>            
             </div>            
 
