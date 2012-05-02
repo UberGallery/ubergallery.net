@@ -36,12 +36,12 @@ a:hover {
     background: #232323 url(../images/arrow_up_24.png) no-repeat center center;
     background-color: rgba(0,0,0,.5);
     border-radius: 5px;
-    bottom: 10px;
+    top: 10px;
     display: inline-block;
     height: 24px;
     padding: 8px;
+    margin-left: 790px;
     position: fixed;
-    right: 10px;
     width: 24px;
 }
 

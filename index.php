@@ -311,10 +311,11 @@
                 </tr>
             </table>
         
+            <a href="#" title="Top of Page" id="topButton" style="display: none;"></a>
+            
         </div>
     </div>
     
-    <a href="#" title="Top of Page" id="topButton" style="display: none;"></a>
     <a href="https://github.com/UberGallery/UberGallery" id="forkMeBanner"><img src="images/fork_me_banner.png" alt="Fork me on GitHub" /></a>
     
     <!-- Plus One Button -->
