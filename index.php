@@ -1,6 +1,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
+
+<?php
+    // Miscellaneous Variables
+    $currentVersion = "2.3.2";
+    $dlZip          = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.3.1.zip";
+    $dlTarGz        = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.3.1.tar.gz";
+
+    // Fetch Github downloads via the Github API
+    $apiResults = file_get_contents('https://api.github.com/repos/UberGallery/UberGallery/downloads');
+    $jsonObject = json_decode($apiResults);
+?>    
 
 <head>
     <title>UberGallery - The simple PHP photo gallery</title>
@@ -51,10 +61,10 @@
                 <p>The simple PHP photo gallery</p>
             </div>
             
-            <a href="https://github.com/UberGallery/UberGallery/downloads" id="downloadLink" class="floatRight">
+            <a href="#download" id="downloadLink" class="floatRight">
                 <div id="downloadLinkInner">
                     <span class="title">Download UberGallery</span>
-                    <span class="version">Current Version: 2.3.1</span>
+                    <span class="version">Current Version: <?php echo $currentVersion; ?></span>
                 </div>
             </a>
             
@@ -68,6 +78,7 @@
             <ul id="pageNavigation" class="clearfix">
                 <li class="first"><a href="#intro">Introduction</a></li>
                 <li><a href="#demo">Demo</a></li>
+                <li><a href="#download">Download</a></li>
                 <li>
                     <a href="#simpleInstall"><span class="dropDownLink">Installation</span></a>
                     <ul>
@@ -169,6 +180,47 @@
                 <div id="demoLinks" >
                     <p class="alignCenter"><a href="/demo">View the Stand-alone Demo</a> | <a href="/multi-gallery/">View the Multi-directory Demo</a></p>
                 </div>
+                
+            </div>
+            
+            
+            <div class="contentBox" id="download">
+                <h2>Download</h2>
+                <div class="line"></div>
+                
+                <div id="downloadButtons">
+                    <a href="<?php echo $dlZip; ?>">Download as zip</a>
+                    <a href="<?php echo $dlTarGz; ?>">Download as tar.gz</a>
+                </div>
+                
+                <br/>
+                
+                <p class="alignCenter">Current Version: <?php echo $currentVersion; ?></p>
+                
+                <div class="line"></div>
+                
+                <p class="alignCenter">
+                    <a href="#">Show All Downloads</a>
+                </p>
+                
+                <table id="downloadTable" cellspacing="0" cellpadding="0">
+                    <thead>
+                        <th class="description">Description</th>
+                        <th class="createDate">Created</th>
+                        <th class="fileSize">Size</th>
+                        <th class="downloadCount">Downloads</th>
+                    </thead>
+                    <tbody>
+                    <?php $i = 1; foreach($jsonObject as $dl): ?>
+                        <tr class="<?php echo ($i % 2 == 0) ? 'even' : 'odd'; ?>" >
+                            <td class"description"><a href="<?php echo $dl->html_url; ?>"><?php echo $dl->description; ?></a></td>
+                            <td class="createDate"><?php echo $dl->created_at; ?></td>
+                            <td class="fileSize"><?php echo ($dl->size / 1024) . ' Kb'; ?></td>
+                            <td class="downloadCount"><?php echo $dl->download_count; ?></td>
+                        </tr>            
+                    <?php $i++; endforeach; ?>
+                    </tbody>
+                </table>
                 
             </div>
             

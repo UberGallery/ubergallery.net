@@ -75,7 +75,7 @@ a:hover {
 }
 
 #downloadLink {
-    background: #8B0 url(../images/gradient_sprite.png) repeat-x left -84px;
+    background: #8B0 url(../images/gradient_sprite.png) repeat-x left -120px;
     border-radius: 5px;
     color: #000;
     display: inline-block;
@@ -86,7 +86,7 @@ a:hover {
 }
 
 #downloadLink:hover {
-    background: #7A0 url(../images/gradient_sprite.png) repeat-x left -141px;
+    background: #7A0 url(../images/gradient_sprite.png) repeat-x left -195px;
     text-shadow: 0 1px 0 #9C2;
 }
 
@@ -160,8 +160,10 @@ a:hover {
     color: #555;
     display: block;
     padding: 10px 12px;
+    position: relative;
     text-decoration: none;
     text-shadow: 0 1px 0 #F6F6F6;
+    z-index: 100;
 }
 
 #pageNavigation li.first a, #pageNavigation li.first .fakeLink {
@@ -177,7 +179,7 @@ a:hover {
 } */
 
 #pageNavigation li:hover a, #pageNavigation li:hover .fakeLink {
-    background: #BCBCBC url(../images/gradient_sprite.png) repeat-x left -42px;
+    background: #BCBCBC url(../images/gradient_sprite.png) repeat-x left -60px;
     cursor: pointer;
     text-shadow: 0 1px 0 #E6E6E6;
 }
@@ -187,11 +189,13 @@ a:hover {
 
 #pageNavigation ul {
     background-color: #BCBCBC;
+    box-shadow: 0 2px 3px #212121;
     display: none;
     left: 0;
     margin: 0;
     position: absolute;
     top: 100%;
+    z-index: 50;
 }
 
 
@@ -314,6 +318,83 @@ h4 {
     text-align: center;
     width: 33%;
 }
+
+
+/* -------------------------------------------------------------------------- */
+/* -----| DOWNLOADS |-------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+#downloadButtons {
+    text-align: center;
+}
+
+#downloadButtons a {
+    background: #CDCDCD url(../images/gradient_sprite.png) repeat-x scroll left 0;
+    border-radius: 3px;
+    color: #555;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 14px 18px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #F6F6F6;
+}
+
+#downloadButtons a:hover {
+    background: #BCBCBC url(../images/gradient_sprite.png) repeat-x left -60px;    
+}
+
+#downloadTable {
+    height: 150px;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+#downloadTable tr.odd {
+    background-color: #204656;
+    background-color: rgba(0,0,0,.2);
+}
+
+#downloadTable tr.even {
+    background-color: #15242A;
+    background-color: rgba(0,0,0,.4);
+}
+
+#downloadTable th.description {
+    text-align: left;
+}
+
+#downloadTable th.createDate {
+    text-align: right;
+}
+
+#downloadTable th.fileSize {
+    text-align: right;
+}
+
+#downloadTable th.downloadCount {
+    text-align: right;
+}
+
+#downloadTable tr td.description {
+    /* NULL */    
+}
+
+#downloadTable tr td.createDate {
+    text-align: right;
+}
+
+#downloadTable tr td.fileSize {
+    text-align: right;
+}
+
+#downloadTable tr td.downloadCount {
+    text-align: right;
+}
+
+
+
 
 
 /* -------------------------------------------------------------------------- */
