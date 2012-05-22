@@ -205,21 +205,25 @@
                 
                 <table id="downloadTable" cellspacing="0" cellpadding="0">
                     <thead>
-                        <th class="description">Description</th>
-                        <th class="createDate">Created</th>
-                        <th class="fileSize">Size</th>
-                        <th class="downloadCount">Downloads</th>
+                        <tr>
+                            <th class="description">Description</th>
+                            <th class="createDate">Created</th>
+                            <th class="fileSize">Size</th>
+                            <th class="downloadCount">Downloads</th>
+                        </tr>
                     </thead>
+                    
                     <tbody>
-                    <?php $i = 1; foreach($jsonObject as $dl): ?>
-                        <tr class="<?php echo ($i % 2 == 0) ? 'even' : 'odd'; ?>" >
-                            <td class"description"><a href="<?php echo $dl->html_url; ?>"><?php echo $dl->description; ?></a></td>
-                            <td class="createDate"><?php echo $dl->created_at; ?></td>
-                            <td class="fileSize"><?php echo ($dl->size / 1024) . ' Kb'; ?></td>
-                            <td class="downloadCount"><?php echo $dl->download_count; ?></td>
-                        </tr>            
-                    <?php $i++; endforeach; ?>
+                        <?php $i = 1; foreach($jsonObject as $dl): ?>
+                            <tr class="<?php echo ($i % 2 == 0) ? 'even' : 'odd'; ?>" >
+                                <td class"description"><a href="<?php echo $dl->html_url; ?>"><?php echo $dl->description; ?></a></td>
+                                <td class="createDate"><?php echo $dl->created_at; ?></td>
+                                <td class="fileSize"><?php echo ($dl->size / 1024) . ' Kb'; ?></td>
+                                <td class="downloadCount"><?php echo $dl->download_count; ?></td>
+                            </tr>            
+                        <?php $i++; endforeach; ?>
                     </tbody>
+                    
                 </table>
                 
             </div>

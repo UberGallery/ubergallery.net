@@ -346,19 +346,7 @@ h4 {
 }
 
 #downloadTable {
-    height: 150px;
-    overflow-y: scroll;
     width: 100%;
-}
-
-#downloadTable tr.odd {
-    background-color: #204656;
-    background-color: rgba(0,0,0,.2);
-}
-
-#downloadTable tr.even {
-    background-color: #15242A;
-    background-color: rgba(0,0,0,.4);
 }
 
 #downloadTable th.description {
@@ -375,6 +363,16 @@ h4 {
 
 #downloadTable th.downloadCount {
     text-align: right;
+}
+
+#downloadTable tr.odd {
+    background-color: #204656;
+    background-color: rgba(0,0,0,.2);
+}
+
+#downloadTable tr.even {
+    background-color: #15242A;
+    background-color: rgba(0,0,0,.4);
 }
 
 #downloadTable tr td.description {
