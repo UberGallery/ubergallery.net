@@ -205,16 +205,24 @@
                     <span class="downloadCount">Downloads</span>
                 </div>
                 
-                <div id="downloadsScroller">
-                    <div id="downloadScrollerInner">
-                        <?php $i = 1; foreach($jsonObject as $dl): ?>
-                            <a href="<?php echo $dl->html_url; ?>" class="clearfix <?php echo ($i % 2 == 0) ? 'even' : 'odd'; ?>">
-                                <span class="description"><?php echo $dl->description; ?></span>
-                                <span class="createDate"><?php echo $dl->created_at; ?></span>
-                                <span class="fileSize"><?php echo ($dl->size / 1024) . ' Kb'; ?></span>
-                                <span class="downloadCount"><?php echo $dl->download_count; ?></span>
-                            </a>            
-                        <?php $i++; endforeach; ?>
+                <div id="downloadsWrapper">
+                    <div id="downloadsScroller">
+                        <div id="downloadScrollerInner">
+                            <?php $i = 1; foreach($jsonObject as $dl): ?>
+                                <?php
+                                    $time = new DateTime($dl->created_at);
+                                    $timestamp = $time->getTimestamp();
+                                ?>
+                                <a href="<?php echo $dl->html_url; ?>" class="clearfix <?php echo ($i % 2 == 0) ? 'even' : 'odd'; ?>">
+                                    <span class="description"><?php echo $dl->description; ?></span>
+                                    <span class="createDate"><?php echo date('M j, Y - g:i A', $timestamp); ?></span>
+                                    <span class="fileSize"><?php echo ($dl->size / 1024) . ' Kb'; ?></span>
+                                    <span class="downloadCount"><?php echo $dl->download_count; ?></span>
+                                </a>            
+                            <?php $i++; endforeach; ?>
+                        </div>
+                        
+                        <div id="innerShadow"></div>
                     </div>
                 </div>
                     

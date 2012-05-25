@@ -369,11 +369,11 @@ h2 small {
 
 #downloadsHeader .description {
     text-align: left;
-    width: 415px;
+    width: 405px;
 }
 
 #downloadsHeader .createDate {
-    width: 140px;
+    width: 150px;
 }
 
 #downloadsHeader .fileSize {
@@ -384,11 +384,34 @@ h2 small {
     width: 75px;
 }
 
-#downloadsScroller {
+#downloadsWrapper {
     border-top: 1px solid #1E2D34;
     border-bottom: 1px solid #1E2D34;
+    overflow: hidden;
+    position: relative;
+}
+
+#downloadsWrapper:before, #downloadsWrapper:after{
+    content: "\0020";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    box-shadow: #000 0 0 5px 0;
+}
+
+#downloadsWrapper:before {
+    top: -1px
+}
+
+#downloadsWrapper:after {
+    bottom: -1px
+}
+
+#downloadsScroller {
     height: 200px;
     overflow-y: scroll;
+    position: relative;
 }
 
 #downloadScrollerInner {
@@ -420,11 +443,11 @@ h2 small {
 
 #downloadsScroller .description {
     text-align: left;
-    width: 410px;
+    width: 400px;
 }
 
 #downloadsScroller .createDate {
-    width: 140px;
+    width: 150px;
 }
 
 #downloadsScroller .fileSize {
