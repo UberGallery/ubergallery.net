@@ -199,32 +199,29 @@
                 
                 <div class="line"></div>
                 
-                <p class="alignCenter">
-                    <a href="#">Show All Downloads</a>
-                </p>
-                
-                <table id="downloadTable" cellspacing="0" cellpadding="0">
-                    <thead>
-                        <tr>
-                            <th class="description">Description</th>
-                            <th class="createDate">Created</th>
-                            <th class="fileSize">Size</th>
-                            <th class="downloadCount">Downloads</th>
-                        </tr>
-                    </thead>
+                <div id="downloadsWrapper">
                     
-                    <tbody>
+                    <div id="downloadsHeader" class="clearfix">
+                        <span class="description">Description</span>
+                        <span class="createDate">Created</span>
+                        <span class="fileSize">Size</span>
+                        <span class="downloadCount">Downloads</span>
+                    </div>
+                    
+                    <div id="downloadsScroller">
                         <?php $i = 1; foreach($jsonObject as $dl): ?>
-                            <tr class="<?php echo ($i % 2 == 0) ? 'even' : 'odd'; ?>" >
-                                <td class"description"><a href="<?php echo $dl->html_url; ?>"><?php echo $dl->description; ?></a></td>
-                                <td class="createDate"><?php echo $dl->created_at; ?></td>
-                                <td class="fileSize"><?php echo ($dl->size / 1024) . ' Kb'; ?></td>
-                                <td class="downloadCount"><?php echo $dl->download_count; ?></td>
-                            </tr>            
+                            <a href="<?php echo $dl->html_url; ?>" class="clearfix <?php echo ($i % 2 == 0) ? 'even' : 'odd'; ?>">
+                                <span class="description"><?php echo $dl->description; ?></span>
+                                <span class="createDate"><?php echo $dl->created_at; ?></span>
+                                <span class="fileSize"><?php echo ($dl->size / 1024) . ' Kb'; ?></span>
+                                <span class="downloadCount"><?php echo $dl->download_count; ?></span>
+                            </a>            
                         <?php $i++; endforeach; ?>
-                    </tbody>
+                    </div>
                     
-                </table>
+                </div>
+                
+                <a href="javascript: void(0)" id="showHideDownloads">Show All Downloads</a>
                 
             </div>
             

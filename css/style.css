@@ -345,54 +345,100 @@ h4 {
     background: #BCBCBC url(../images/gradient_sprite.png) repeat-x left -60px;    
 }
 
-#downloadTable {
-    width: 100%;
+/* ----- DOWNLOADS LIST ----- */
+
+#downloadsWrapper {
+/*    display: none;*/
 }
 
-#downloadTable th.description {
+#downloadsHeader {
+    border-bottom: 1px solid #1E2D34;
+}
+
+#downloadsHeader span {
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+    margin: 2px 5px; 
+    text-align: right;
+}
+
+#downloadsHeader .description {
     text-align: left;
+    width: 415px;
 }
 
-#downloadTable th.createDate {
+#downloadsHeader .createDate {
+    width: 140px;
+}
+
+#downloadsHeader .fileSize {
+    width: 50px;
+}
+
+#downloadsHeader .downloadCount {
+    width: 75px;
+}
+
+#downloadsScroller {
+    height: 200px;
+    overflow-y: scroll;
+    padding: 5px;
+}
+
+#downloadsScroller a {
+    display: block;
+}
+
+#downloadsScroller a.odd {
+    background-color: rgba(0,0,0,.15);
+}
+
+#downloadsScroller a.even {
+    background-color: rgba(0,0,0,.3)
+}
+
+#downloadsScroller a:hover {
+    background-color: rgba(0,0,0,.5)
+}
+
+#downloadsScroller a span {
+    display: inline-block;
+    float: left;
+    margin: 5px;
     text-align: right;
 }
 
-#downloadTable th.fileSize {
-    text-align: right;
+#downloadsScroller .description {
+    text-align: left;
+    width: 410px;
 }
 
-#downloadTable th.downloadCount {
-    text-align: right;
+#downloadsScroller .createDate {
+    width: 140px;
 }
 
-#downloadTable tr.odd {
-    background-color: #204656;
-    background-color: rgba(0,0,0,.2);
+#downloadsScroller .fileSize {
+    width: 50px;
 }
 
-#downloadTable tr.even {
+#downloadsScroller .downloadCount {
+    width: 75px;
+}
+
+
+
+#showHideDownloads {
     background-color: #15242A;
-    background-color: rgba(0,0,0,.4);
+    display: block;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
 }
 
-#downloadTable tr td.description {
-    /* NULL */    
+#showHideDownloads:hover {
+    background-color: #1E2D34;
 }
-
-#downloadTable tr td.createDate {
-    text-align: right;
-}
-
-#downloadTable tr td.fileSize {
-    text-align: right;
-}
-
-#downloadTable tr td.downloadCount {
-    text-align: right;
-}
-
-
-
 
 
 /* -------------------------------------------------------------------------- */
