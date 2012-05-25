@@ -3,7 +3,7 @@
 
 <?php
     // Miscellaneous Variables
-    $currentVersion = "2.3.2";
+    $currentVersion = "2.3.1";
     $dlZip          = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.3.1.zip";
     $dlTarGz        = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.3.1.tar.gz";
 
