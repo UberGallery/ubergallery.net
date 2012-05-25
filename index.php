@@ -185,7 +185,10 @@
             
             
             <div class="contentBox" id="download">
-                <h2>Download</h2>
+                <h2>
+                    Download
+                    <small id="currentVersion">Current Version: <?php echo $currentVersion; ?></small>
+                </h2>
                 <div class="line"></div>
                 
                 <div id="downloadButtons">
@@ -193,22 +196,17 @@
                     <a href="<?php echo $dlTarGz; ?>">Download as tar.gz</a>
                 </div>
                 
-                <br/>
-                
-                <p class="alignCenter">Current Version: <?php echo $currentVersion; ?></p>
-                
                 <div class="line"></div>
                 
-                <div id="downloadsWrapper">
-                    
-                    <div id="downloadsHeader" class="clearfix">
-                        <span class="description">Description</span>
-                        <span class="createDate">Created</span>
-                        <span class="fileSize">Size</span>
-                        <span class="downloadCount">Downloads</span>
-                    </div>
-                    
-                    <div id="downloadsScroller">
+                <div id="downloadsHeader" class="clearfix">
+                    <span class="description">Description</span>
+                    <span class="createDate">Created</span>
+                    <span class="fileSize">Size</span>
+                    <span class="downloadCount">Downloads</span>
+                </div>
+                
+                <div id="downloadsScroller">
+                    <div id="downloadScrollerInner">
                         <?php $i = 1; foreach($jsonObject as $dl): ?>
                             <a href="<?php echo $dl->html_url; ?>" class="clearfix <?php echo ($i % 2 == 0) ? 'even' : 'odd'; ?>">
                                 <span class="description"><?php echo $dl->description; ?></span>
@@ -218,11 +216,8 @@
                             </a>            
                         <?php $i++; endforeach; ?>
                     </div>
-                    
                 </div>
-                
-                <a href="javascript: void(0)" id="showHideDownloads">Show All Downloads</a>
-                
+                    
             </div>
             
             

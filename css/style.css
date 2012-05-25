@@ -281,6 +281,7 @@ h2 {
     font-size: 1.6em;
     letter-spacing: 1px;
     margin: 0;
+    position: relative;
 }
 
 h3 {
@@ -292,6 +293,13 @@ h3 {
 h4 {
     font-size: 1.1em;
     margin: 0;
+}
+
+h2 small {
+    color: #466775;
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
 }
 
 #featuresList {
@@ -351,10 +359,6 @@ h4 {
 /*    display: none;*/
 }
 
-#downloadsHeader {
-    border-bottom: 1px solid #1E2D34;
-}
-
 #downloadsHeader span {
     display: inline-block;
     float: left;
@@ -381,8 +385,13 @@ h4 {
 }
 
 #downloadsScroller {
+    border-top: 1px solid #1E2D34;
+    border-bottom: 1px solid #1E2D34;
     height: 200px;
     overflow-y: scroll;
+}
+
+#downloadScrollerInner {
     padding: 5px;
 }
 
@@ -424,20 +433,6 @@ h4 {
 
 #downloadsScroller .downloadCount {
     width: 75px;
-}
-
-
-
-#showHideDownloads {
-    background-color: #15242A;
-    display: block;
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
-}
-
-#showHideDownloads:hover {
-    background-color: #1E2D34;
 }
 
 
