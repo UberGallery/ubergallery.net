@@ -221,8 +221,6 @@
                                 </a>            
                             <?php $i++; endforeach; ?>
                         </div>
-                        
-                        <div id="innerShadow"></div>
                     </div>
                 </div>
                     
