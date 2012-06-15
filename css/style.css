@@ -455,7 +455,8 @@ h2 small {
 }
 
 #downloadsScroller .downloadCount {
-    width: 75px;
+    float: right;
+    width: 70px;
 }
 
 
