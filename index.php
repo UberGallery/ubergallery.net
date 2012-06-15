@@ -48,7 +48,7 @@
     
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta itemprop="name" content="UberGallery - The simple PHP photo gallery">
-    <meta itemprop="description" content="UberGallery is an easy to use, simple to manage, web photo gallery written in PHP and dual licensed under the MIT License and GNU General Public License (GPL) Version 3. UberGallery does not require a database and supports JPEG, GIF and PNG file types. Simply upload your images and UberGallery will automatically generate thumbnails and output standards compliant XHTML markup on the fly.">
+    <meta itemprop="description" content="UberGallery is an easy to use, simple to manage, web photo gallery written in PHP and distributed under the MIT License. UberGallery does not require a database and supports JPEG, GIF and PNG file types. Simply upload your images and UberGallery will automatically generate thumbnails and output standards compliant XHTML markup on the fly.">
     <meta itemprop="image" content="http://www.ubergallery.net/images/photo.png">
 </head>
 
@@ -173,7 +173,7 @@
                         </ul>
                     </div>
                 </div>
-                <!-- End UberGallery - Dual licensed under the MIT & GPL license -->
+                <!-- End UberGallery - Distributed under the MIT license -->
                 
                 <div class="line"></div>
                 
@@ -315,7 +315,7 @@
                         <dd>Not directly. I'd love to add support for this eventually, but at the moment is not possible. However, generating multiple galleries from a single UberGallery installation is rather painless. You can <a href="http://demo.ubergallery.net/multi-gallery/">check out a working example</a> or <a href="https://github.com/UberGallery/multi-gallery-example">see the code behind the examle</a> on Github.</dd>
                         
                     <dt>Can I use UberGallery on a site I'm developing for a client / company?</dt>
-                        <dd>Yes, UberGallery is open source and released under the <a href="COPYING-MIT.txt">MIT</a> and <a href="COPYING-GPL.txt">GPLv3</a> licenses. The rights granted by these licenses should be sufficient to suit any situation. Also, while not required, it's encouraged that you leave the "Powered by, UberGallery" link below the gallery list.</dd>
+                        <dd>Yes, UberGallery is open source and released under the <a href="COPYING-MIT.txt">MIT</a> licenses. The rights granted by these licenses should be sufficient to suit any situation. Also, while not required, it's encouraged that you leave the "Powered by, UberGallery" link below the gallery list.</dd>
                         
                     <dt>How can I get news and updates pertaining to UberGallery?</dt>
                         <dd>You can follow us on Twitter: <a href="https://twitter.com/#!/UberGallery">@UberGallery</a></dd>
