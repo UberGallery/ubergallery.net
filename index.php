@@ -3,9 +3,9 @@
 
 <?php
     // Miscellaneous Variables
-    $currentVersion = "2.3.1";
-    $dlZip          = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.3.1.zip";
-    $dlTarGz        = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.3.1.tar.gz";
+    $currentVersion = "2.4.0";
+    $dlZip          = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.4.0.zip";
+    $dlTarGz        = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.4.0.tar.gz";
 
     // Fetch Github downloads via the Github API
     $apiResults = file_get_contents('https://api.github.com/repos/UberGallery/UberGallery/downloads');
@@ -87,8 +87,8 @@
                         <li><a href="#gitInstall">Install with Git</a></li>
                     </ul>
                 </li>
+                <li><a href="#troubleshooting">Troubleshooting</a></li>
                 <li><a href="#faq">F.A.Q.</a></li>
-                <li><a href="#support">Support</a></li>
                 <li><a href="http://news.ubergallery.net"><span class="externalLink">News</span></a></li>
                 
                 <li class="followLinks">
@@ -240,7 +240,7 @@
                 
                 <p>Make the <code>resources/cache/</code> directory writable by the web server:</p>
                 
-                <pre>chmod 777 -R /path/to/resources/cache</pre>
+                <pre>chmod 777 /path/to/resources/cache</pre>
                 
                 <p>Open your web browser and load the page where you installed UberGallery.</p>
             </div>
@@ -273,7 +273,7 @@
                 
                 <p>Make the <code>resources/cache/</code> directory writable by the web server.</p>
                 
-                <pre>chmod 777 -R /path/to/resources/cache</pre>
+                <pre>chmod 777 /path/to/resources/cache</pre>
                 
                 <p>Open your web browser and load the page where you installed UberGallery.</p>
             </div>
@@ -285,7 +285,7 @@
                 
                 <p>ssh into the your server and clone the UberGallery repository:</p>
                 
-                <pre>git clone git://github.com/UberGallery/UberGallery.git /path/to/gallery-directory</pre>
+                <pre>git clone --recursive git://github.com/UberGallery/UberGallery.git /path/to/gallery-directory</pre>
                 
                 <p>Copy <code>resources/sample.galleryConfig.ini</code> to <code>resources/galleryConfig.ini</code> and modify the settings</p>
                 
@@ -295,7 +295,7 @@
                 
                 <p>Make the <code>resources/cache/</code> directory writable by the web server.</p>
                 
-                <pre>chmod 777 -R /path/to/resources/cache</pre>
+                <pre>chmod 777 /path/to/resources/cache</pre>
                 
                 <p>Open your web browser and load the page where you installed UberGallery.</p>
                 
@@ -303,6 +303,40 @@
                 following commands:</p>
                 
                 <pre>cd /path/to/gallery-directory<br/>git pull origin master</pre>
+            </div>
+            
+            
+            <div class="contentBox" id="troubleshooting">
+                <h2>Troubleshooting</h2>
+                <div class="line"></div>
+                
+                <p>If you're having issues with UberGallery here are a few troubleshooting tips:</p>
+
+                <ul>
+                    <li>
+                        <p>Verify that you have PHP 5.2 or later installed.  You can verify your PHP version by running:</p>
+                        <pre>php --version</pre>
+                    </li>
+                    
+                    <li><p>Make sure you have the latest version of UberGallery installed.</p></li>
+                    
+                    <li>
+                        <p>Replace your <code>galleryConfig.ini</code> with <code>sample.galleryConfig.ini</code> to ensure proper configuration:</p>
+                        <pre>rm resources/galleryConfig.ini<br/>cp resource/sample.galleryConfig.ini resources/galleryConfig.ini</pre>
+                    </li>
+                    
+                    <li>
+                        <p>Clear your cache and make sure the directory is writable by the web server:</p>
+                        <pre>rm -f resources/cache/*<br/>chmod 777 resources/cache</pre>
+                    </li>
+                    
+                    <li>
+                        <p>Enable debugging by setting the <code>enable_debugging</code> option in <code>resources/galleryConfig.ini</code> to <code>true</code>,
+                        try loading your gallery in a web browser then inspect the debug.log file in your cache directory for any errors.</p>
+                    </li>
+                </ul>
+                
+                <p>If you continue to have issues, please email me at: <a href="mailto:Chris@ChrisKankiewicz.com">Chris@ChrisKankiewicz.com</a></p>
             </div>
             
             
@@ -326,23 +360,23 @@
                         <dd>At the moment I'm the sole developer of UberGallery and my time is severly limited thus limiting my ability to add new features.  However, UberGallery is open source and hosted on <a href="https://github.com/UberGallery/UberGallery">Github</a>.  This means you are allowed to fork the code and make changes to suit your needs. You're also encourage to submit a pull request of the changes you make so I may review your changes and, upon approval, merge them into the UberGallery code base.</dd>
                 </dl>
             </div>
+
             
-            
-            <div class="contentBox" id="support">
-                <h2>Support</h2>
+            <div class="contentBox" id="more-info">
+                <h2>More Info</h2>
                 <div class="line"></div>
                 
-                <p>If you have any questions or comments, send an email to: <a href="mailto:Chris@ChrisKankiewicz.com">Chris@ChrisKankiewicz.com</a></p>
                 <p>UberGallery updates and news can be found on our <a href="http://news.ubergallery.net/">blog</a> or by <a href="https://twitter.com/#!/UberGallery">following us on Twitter</a>.</p>
                 <p>To report a bug, visit the issue tracker on Github at: <a href="http://github.com/UberGallery/ubergallery/issues">http://github.com/UberGallery/ubergallery/issues</a></p>
             </div>
+            
             
             <div id="footerText">
                 <div id="footerTextInner">
                     <p>UberGallery is distributed under the terms of the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.</p>
                     <p>Copyright &copy; <?php echo date('Y'); ?> <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a></p>
                 </div>            
-            </div>            
+            </div>     
 
             <table id="footerTable" cellpadding="0" cellspacing="0">
                 <tr>
