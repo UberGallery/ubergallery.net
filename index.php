@@ -89,7 +89,7 @@
                 </li>
                 <li><a href="#troubleshooting">Troubleshooting</a></li>
                 <li><a href="#faq">F.A.Q.</a></li>
-                <li><a href="http://news.ubergallery.net"><span class="externalLink">News</span></a></li>
+                <li><a href="http://forum.ubergallery.net"><span class="externalLink">Forum</span></a></li>
                 
                 <li class="followLinks">
                     <div class="followLinksInner">
@@ -328,7 +328,7 @@
                 
                 <h4 class="sectionTitle">Other Issues</h4>
                 
-                <p>If you're having other issues with UberGallery here are a few troubleshooting tips:</p>
+                <p>Here are a few additional troubleshooting tips:</p>
 
                 <ul>
                     <li>
@@ -356,7 +356,7 @@
                 
                 <div class="line"></div>
                 
-                <p>If you continue to have issues, please email me at: <a href="mailto:Chris@ChrisKankiewicz.com">Chris@ChrisKankiewicz.com</a></p>
+                <p>If you continue to have issues, please create a post on our <a href="http://forum.ubergallery.net/">support forum</a> explaining your issue.</p>
             </div>
             
             
@@ -386,7 +386,7 @@
                 <h2>More Info</h2>
                 <div class="line"></div>
                 
-                <p>UberGallery updates and news can be found on our <a href="http://news.ubergallery.net/">blog</a> or by <a href="https://twitter.com/#!/UberGallery">following us on Twitter</a>.</p>
+                <p>UberGallery news and updates can be found in the <a href="http://forum.ubergallery.net/viewforum.php?id=3">announcements section</a> of our <a href="http://forum.ubergallery.net">support forum</a> or by <a href="https://twitter.com/#!/UberGallery">following us on Twitter</a>.</p>
                 <p>To report a bug, visit the issue tracker on Github at: <a href="http://github.com/UberGallery/ubergallery/issues">http://github.com/UberGallery/ubergallery/issues</a></p>
             </div>
             
