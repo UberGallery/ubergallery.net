@@ -277,6 +277,11 @@ a:hover {
     margin: 15px 0;
 }
 
+.sectionTitle {
+    font-size: 1em;
+    margin: 0 0 .8em;
+}
+
 h2 {
     font-size: 1.6em;
     letter-spacing: 1px;

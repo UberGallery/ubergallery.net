@@ -310,7 +310,25 @@
                 <h2>Troubleshooting</h2>
                 <div class="line"></div>
                 
-                <p>If you're having issues with UberGallery here are a few troubleshooting tips:</p>
+                <h4 class="sectionTitle">Pages / Images Loading Slow or Not at All</h4>
+                
+                <p>If pages are loading slow or not loading at all, ensure your images are not too 
+                large (~1024px - 1280px for the longest side).  Large images can slow down page and/or
+                image load times or considerably.</p>
+                
+                <p>If you have too many large images to resize one at a time here are a few batch image resizing tools:</p>
+                
+                <ul>
+                    <li>Windows: <a href="http://imageresizer.codeplex.com/">Image Resizer Power Toy</a></li>
+                    <li>OSX: <a href="http://www.ironstarmedia.co.uk/resources/osx-image-resizer/">OSX Image Resizer</a></li>
+                    <li>Linux: <a href="http://www.imagemagick.org">ImageMagick</a></li>
+                </ul>
+                
+                <div class="line"></div>
+                
+                <h4 class="sectionTitle">Other Issues</h4>
+                
+                <p>If you're having other issues with UberGallery here are a few troubleshooting tips:</p>
 
                 <ul>
                     <li>
@@ -335,6 +353,8 @@
                         try loading your gallery in a web browser then inspect the debug.log file in your cache directory for any errors.</p>
                     </li>
                 </ul>
+                
+                <div class="line"></div>
                 
                 <p>If you continue to have issues, please email me at: <a href="mailto:Chris@ChrisKankiewicz.com">Chris@ChrisKankiewicz.com</a></p>
             </div>
