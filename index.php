@@ -3,9 +3,9 @@
 
 <?php
     // Miscellaneous Variables
-    $currentVersion = "2.4.0";
-    $dlZip          = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.4.0.zip";
-    $dlTarGz        = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.4.0.tar.gz";
+    $currentVersion = "2.4.1";
+    $dlZip          = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.4.1.zip";
+    $dlTarGz        = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.4.1.tar.gz";
 
     // Fetch Github downloads via the Github API
     $apiResults = file_get_contents('https://api.github.com/repos/UberGallery/UberGallery/downloads');
