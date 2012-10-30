@@ -3,9 +3,9 @@
 
 <?php
     // Miscellaneous Variables
-    $currentVersion = "2.4.1";
-    $dlZip          = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.4.1.zip";
-    $dlTarGz        = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.4.1.tar.gz";
+    $currentVersion = "2.4.2";
+    $dlZip          = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.4.2.zip";
+    $dlTarGz        = "https://github.com/downloads/UberGallery/UberGallery/UberGallery-v2.4.2.tar.gz";
 
     // Fetch Github downloads via the Github API
     $apiResults = file_get_contents('https://api.github.com/repos/UberGallery/UberGallery/downloads');
@@ -369,7 +369,7 @@
                         <dd>Not directly. I'd love to add support for this eventually, but at the moment is not possible. However, generating multiple galleries from a single UberGallery installation is rather painless. You can <a href="http://demo.ubergallery.net/multi-gallery/">check out a working example</a> or <a href="https://github.com/UberGallery/multi-gallery-example">see the code behind the examle</a> on Github.</dd>
                         
                     <dt>Can I use UberGallery on a site I'm developing for a client / company?</dt>
-                        <dd>Yes, UberGallery is open source and released under the <a href="COPYING-MIT.txt">MIT</a> licenses. The rights granted by these licenses should be sufficient to suit any situation. Also, while not required, it's encouraged that you leave the "Powered by, UberGallery" link below the gallery list.</dd>
+                        <dd>Yes, UberGallery is open source and released under the <a href="COPYING-MIT.txt">MIT</a> license. The rights granted by these licenses should be sufficient to suit any situation. Also, while not required, it's encouraged that you leave the "Powered by, UberGallery" link below the gallery list.</dd>
                         
                     <dt>How can I get news and updates pertaining to UberGallery?</dt>
                         <dd>You can follow us on Twitter: <a href="https://twitter.com/#!/UberGallery">@UberGallery</a></dd>
