@@ -196,6 +196,7 @@
                     <a href="<?php echo $dlTarGz; ?>">Download as tar.gz</a>
                 </div>
                 
+		<?php /*
                 <div class="line"></div>
                 
                 <div id="downloadsHeader" class="clearfix">
@@ -223,6 +224,7 @@
                         </div>
                     </div>
                 </div>
+		*/ ?>
                     
             </div>
             
