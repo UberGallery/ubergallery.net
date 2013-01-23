@@ -186,8 +186,8 @@
                 <div class="line"></div>
                 
                 <div id="downloadButtons">
-                    <a href="<?php echo $dlZip; ?>" target="_blank" onclick="_gaq.push(['_trackEvent', 'Download', 'ZIP', this.href]);">Download as zip</a>
-                    <a href="<?php echo $dlTarGz; ?>" target="_blank" onclick="_gaq.push(['_trackEvent', 'Download', 'TAR.GZ', this.href]);">Download as tar.gz</a>
+                    <a href="<?php echo $dlZip; ?>" target="_blank" onclick="_gaq.push(['_trackEvent', 'File', 'Download', this.href]);">Download as zip</a>
+                    <a href="<?php echo $dlTarGz; ?>" target="_blank" onclick="_gaq.push(['_trackEvent', 'File', 'Download', this.href]);">Download as tar.gz</a>
                 </div>
                 
                 <div class="line"></div>
