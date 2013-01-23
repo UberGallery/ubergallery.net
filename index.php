@@ -388,8 +388,8 @@
                 <h2>More Info</h2>
                 <div class="line"></div>
                 
-                <p>UberGallery news and updates can be found in the <a href="http://forum.ubergallery.net/viewforum.php?id=3">announcements section</a> of our <a href="http://forum.ubergallery.net">support forum</a> or by <a href="https://twitter.com/#!/UberGallery">following us on Twitter</a>.</p>
-                <p>To report a bug, visit the issue tracker on Github at: <a href="http://github.com/UberGallery/ubergallery/issues">http://github.com/UberGallery/ubergallery/issues</a></p>
+                <p>UberGallery updates and news can be found on our <a href="http://news.ubergallery.net/">blog</a> or by following <a href="https://twitter.com/ubergallery">@UberGallery</a> on Twitter.</p>
+                <p>Please report bugs on our <a href="http://github.com/UberGallery/ubergallery/issues">GitHub issue tracker</a>.</p>
             </div>
             
             
@@ -436,7 +436,6 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
       })();
     </script>
-    
         
     <!-- Like Button -->
     <div id="fb-root"></div>
