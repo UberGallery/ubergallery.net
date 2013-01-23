@@ -89,7 +89,7 @@
                 </li>
                 <li><a href="#troubleshooting">Troubleshooting</a></li>
                 <li><a href="#faq">F.A.Q.</a></li>
-                <li><a href="http://forum.ubergallery.net"><span class="externalLink">Forum</span></a></li>
+                <li><a href="http://news.ubergallery.net"><span class="externalLink">News</span></a></li>
                 
                 <li class="followLinks">
                     <div class="followLinksInner">
