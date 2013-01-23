@@ -3,9 +3,9 @@
 
 <?php
     // Miscellaneous Variables
-    $currentVersion = "2.4.3";
-    $dlZip          = "http://files.ubergallery.net/releases/UberGallery-v2.4.3.zip";
-    $dlTarGz        = "http://files.ubergallery.net/releases/UberGallery-v2.4.3.tar.gz";
+    $version = "2.4.3";
+    $dlZip   = "http://files.ubergallery.net/releases/UberGallery-v2.4.3.zip";
+    $dlTarGz = "http://files.ubergallery.net/releases/UberGallery-v2.4.3.tar.gz";
 
     // Fetch Github downloads via the Github API
     $apiResults = file_get_contents('https://api.github.com/repos/UberGallery/UberGallery/downloads');
@@ -64,7 +64,7 @@
             <a href="#download" id="downloadLink" class="floatRight">
                 <div id="downloadLinkInner">
                     <span class="title">Download UberGallery</span>
-                    <span class="version">Current Version: <?php echo $currentVersion; ?></span>
+                    <span class="version">Current Version: <?php echo $version; ?></span>
                 </div>
             </a>
             
@@ -129,12 +129,6 @@
                     <li>Install and update the gallery easily wth Git (optional)</li>
                 </ul>
                 
-                <h3>Requirements</h3>
-                
-                <p>UberGallery requires PHP 5.2+ and the PHP-GD image library to work properly.
-                For more information on PHP and the PHP-GD image library, please visit
-                <a href="http://php.net">http://php.net</a>.</p>
-                
             </div>
             
                         
@@ -187,7 +181,7 @@
             <div class="contentBox" id="download">
                 <h2>
                     Download
-                    <small id="currentVersion">Current Version: <?php echo $currentVersion; ?></small>
+                    <small id="currentVersion">Current Version: <?php echo $version; ?></small>
                 </h2>
                 <div class="line"></div>
                 
@@ -196,9 +190,15 @@
                     <a href="<?php echo $dlTarGz; ?>">Download as tar.gz</a>
                 </div>
                 
-		<?php /*
                 <div class="line"></div>
                 
+                
+                <p class="requirements">UberGallery requires PHP 5.2+ and the PHP-GD image library
+                to work properly.<br/>For more information on PHP and the PHP-GD image library,
+                please visit <a href="http://php.net">http://php.net</a>.</p>
+                
+                
+		<?php /*
                 <div id="downloadsHeader" class="clearfix">
                     <span class="description">Description</span>
                     <span class="createDate">Created</span>
