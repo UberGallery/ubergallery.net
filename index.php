@@ -315,8 +315,8 @@
                 <h4 class="sectionTitle">Pages / Images Loading Slow or Not at All</h4>
                 
                 <p>If pages are loading slow or not loading at all, ensure your images are not too 
-                large (~1024px - 1280px for the longest side).  Large images can slow down page and/or
-                image load times or considerably.</p>
+                large.  We recommend 1024px - 1280px for the longest side.  Large images can slow
+                down page and/or image load times or considerably.</p>
                 
                 <p>If you have too many large images to resize one at a time here are a few batch image resizing tools:</p>
                 
@@ -358,7 +358,7 @@
                 
                 <div class="line"></div>
                 
-                <p>If you continue to have issues, please create a post on our <a href="http://forum.ubergallery.net/">support forum</a> explaining your issue.</p>
+                <p>If you continue to have issues, <a href="mailto:Chris@ChrisKankiewicz.com">send us an email</a> explaining your issue.</p>
             </div>
             
             
@@ -389,7 +389,8 @@
                 <div class="line"></div>
                 
                 <p>UberGallery updates and news can be found on our <a href="http://news.ubergallery.net/">blog</a> or by following <a href="https://twitter.com/ubergallery">@UberGallery</a> on Twitter.</p>
-                <p>Please report bugs on our <a href="http://github.com/UberGallery/ubergallery/issues">GitHub issue tracker</a>.</p>
+                <p>Contact the developer directly via email at <a href="Chris@ChrisKankiewicz.com">Chris@ChrisKankiewicz.com</a>.</p>
+                <p>Report bugs by opening an issue on our <a href="http://github.com/UberGallery/ubergallery/issues">GitHub issue tracker</a>.</p>
             </div>
             
             
