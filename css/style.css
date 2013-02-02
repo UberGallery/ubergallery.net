@@ -319,7 +319,7 @@ h2 small {
 
 #footerTable {
     margin: 0 auto 20px;
-    width: 300px;
+    width: 60%;
 }
 
 #footerTable tr {
@@ -329,7 +329,7 @@ h2 small {
 #footerTable tr td {
     padding: 0;
     text-align: center;
-    width: 33%;
+    width: 25%;
 }
 
 .requirements {

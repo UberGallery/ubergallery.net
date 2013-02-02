@@ -393,6 +393,7 @@
                 <p>Report bugs by opening an issue on our <a href="http://github.com/UberGallery/ubergallery/issues">GitHub issue tracker</a>.</p>
             </div>
             
+            <?php include('partials/social-buttons.html'); ?>
             
             <div id="footerText">
                 <div id="footerTextInner">
@@ -401,54 +402,12 @@
                 </div>            
             </div>     
 
-            <table id="footerTable" cellpadding="0" cellspacing="0">
-                <tr>
-                    <td>
-                        <!-- Place this tag where you want the +1 button to render -->
-                        <g:plusone size="medium" href="http://www.ubergallery.net"></g:plusone>
-                        
-                        <!--  Place this tag after the last plusone tag -->
-                        <script type="text/javascript">
-                          (function() {
-                            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                            po.src = 'https://apis.google.com/js/plusone.js';
-                            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                          })();
-                        </script>
-                    </td>
-                    <td>
-                        <div class="fb-like" data-href="http://www.ubergallery.net" data-send="false" data-layout="button_count" data-width="90" data-show-faces="true"></div>
-                    </td>
-                </tr>
-            </table>
-        
             <a href="#" title="Top of Page" id="topButton" style="display: none;"></a>
             
         </div>
     </div>
     
     <a href="https://github.com/UberGallery/UberGallery" id="forkMeBanner"><img src="images/fork_me_banner.png" alt="Fork me on GitHub" /></a>
-    
-    <!-- Plus One Button -->
-    <script type="text/javascript">
-      (function() {
-        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-        po.src = 'https://apis.google.com/js/plusone.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-      })();
-    </script>
-        
-    <!-- Like Button -->
-    <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
     
 </body>
 </html>
