@@ -389,7 +389,7 @@
                 <div class="line"></div>
                 
                 <p>UberGallery updates and news can be found on our <a href="http://news.ubergallery.net/">blog</a> or by following <a href="https://twitter.com/ubergallery">@UberGallery</a> on Twitter.</p>
-                <p>Contact the developer directly via email at <a href="Chris@ChrisKankiewicz.com">Chris@ChrisKankiewicz.com</a>.</p>
+                <p>Contact the developer directly via email at <a href="mailto:Chris@ChrisKankiewicz.com">Chris@ChrisKankiewicz.com</a>.</p>
                 <p>Report bugs by opening an issue on our <a href="http://github.com/UberGallery/ubergallery/issues">GitHub issue tracker</a>.</p>
             </div>
             
