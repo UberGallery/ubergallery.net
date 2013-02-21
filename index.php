@@ -8,8 +8,8 @@
     $dlTarGz = "http://files.ubergallery.net/releases/UberGallery-v2.4.4.tar.gz";
 
     // Fetch Github downloads via the Github API
-    $apiResults = file_get_contents('https://api.github.com/repos/UberGallery/UberGallery/downloads');
-    $jsonObject = json_decode($apiResults);
+    // $apiResults = file_get_contents('https://api.github.com/repos/UberGallery/UberGallery/downloads');
+    // $jsonObject = json_decode($apiResults);
 ?>    
 
 <head>
