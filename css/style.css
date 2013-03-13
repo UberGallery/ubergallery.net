@@ -297,7 +297,7 @@ h3 {
 
 h4 {
     font-size: 1.1em;
-    margin: 0;
+    margin: 1em 0;
 }
 
 h2 small {
@@ -478,16 +478,16 @@ h2 small {
 /* -----| FREQUENTLY ASKED QUESTIONS |--------------------------------------- */
 /* -------------------------------------------------------------------------- */
 
-#faqList {
+dl {
     margin: 0;
 }
 
-#faqList dt {
+dl dt {
     font-weight: bold;
     margin: 1em 0;
 }
 
-#faqList dd {
+dl dd {
     margin-left: 1.5em;
     margin-bottom: 1em;
     text-align: justify;

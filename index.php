@@ -78,7 +78,6 @@
             <ul id="pageNavigation" class="clearfix">
                 <li class="first"><a href="#intro">Introduction</a></li>
                 <li><a href="#demo">Demo</a></li>
-                <li><a href="#download">Download</a></li>
                 <li>
                     <a href="#simpleInstall"><span class="dropDownLink">Installation</span></a>
                     <ul>
@@ -89,6 +88,7 @@
                 </li>
                 <li><a href="#troubleshooting">Troubleshooting</a></li>
                 <li><a href="#faq">F.A.Q.</a></li>
+                <li><a href="#more-info">More Info</a></li>
                 <li><a href="http://news.ubergallery.net"><span class="externalLink">News</span></a></li>
                 
                 <li class="followLinks">
@@ -382,15 +382,24 @@
                         <dd>At the moment I'm the sole developer of UberGallery and my time is severly limited thus limiting my ability to add new features.  However, UberGallery is open source and hosted on <a href="https://github.com/UberGallery/UberGallery">Github</a>.  This means you are allowed to fork the code and make changes to suit your needs. You're also encourage to submit a pull request of the changes you make so I may review your changes and, upon approval, merge them into the UberGallery code base.</dd>
                 </dl>
             </div>
-
             
             <div class="contentBox" id="more-info">
                 <h2>More Info</h2>
                 <div class="line"></div>
                 
-                <p>UberGallery updates and news can be found on our <a href="http://news.ubergallery.net/">blog</a> or by following <a href="https://twitter.com/ubergallery">@UberGallery</a> on Twitter.</p>
-                <p>Contact the developer directly via email at <a href="mailto:Chris@ChrisKankiewicz.com">Chris@ChrisKankiewicz.com</a>.</p>
-                <p>Report bugs by opening an issue on our <a href="http://github.com/UberGallery/ubergallery/issues">GitHub issue tracker</a>.</p>
+                <dl>
+                    <dt>Have a question? Need help getting your gallery working?</dt>
+                        <dd>Send an email to our mailing list at <a href="mailto:UberGallery@GoogleGroups.com">UberGallery@GoogleGroups.com</a>
+                        or <a href="https://groups.google.com/forum/?fromgroups=#!forum/ubergallery">join our Google Group</a> online.</dd>
+                
+                    <dt>Want the latest info on UberGallery?</dt>                    
+                        <dd>UberGallery updates and news can be found on our <a href="http://news.ubergallery.net/">blog</a>
+                        or by following <a href="https://twitter.com/ubergallery">@UberGallery</a> on Twitter.</dd>
+                        
+                    <dt>Find a widespread bug?</dt>
+                        <dd>Report it by opening an issue on our <a href="http://github.com/UberGallery/ubergallery/issues">GitHub issue tracker</a>.</dd>
+                </dl>
+                
             </div>
             
             <?php include('partials/social-buttons.html'); ?>
