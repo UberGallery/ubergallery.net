@@ -389,10 +389,11 @@
                 
                 <dl>
                     <dt>Have a question? Need help getting your gallery working?</dt>
-                        <dd>Send an email to our mailing list at <a href="mailto:UberGallery@GoogleGroups.com">UberGallery@GoogleGroups.com</a>
-                        or <a href="https://groups.google.com/forum/?fromgroups=#!forum/ubergallery">join our Google Group</a> online.</dd>
-                
-                    <dt>Want the latest info on UberGallery?</dt>                    
+                        <dd>Post your questions to our <a href="https://groups.google.com/forum/?fromgroups=#!forum/ubergallery">Google Group</a>
+                        online or email our public mailing list at <a href="mailto:UberGallery@GoogleGroups.com">UberGallery@GoogleGroups.com</a>.</dd>
+                        <dd>We do our best to answer all questions promptly, but sometimes life gets in the way. Please be patient.</dd>
+
+                    <dt>Want the latest info on UberGallery?</dt>
                         <dd>UberGallery updates and news can be found on our <a href="http://news.ubergallery.net/">blog</a>
                         or by following <a href="https://twitter.com/ubergallery">@UberGallery</a> on Twitter.</dd>
                         
