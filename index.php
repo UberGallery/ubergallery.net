@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/UberGallery.css" />
     <link rel="stylesheet" type="text/css" href="demo/resources/colorbox/5/colorbox.css" />
 
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="demo/resources/colorbox/jquery.colorbox.js"></script>
     <script type="text/javascript" src="js/ubergallery.js"></script>
 
@@ -287,11 +287,11 @@
 
                 <p>ssh into the your server and clone the UberGallery repository:</p>
 
-                <pre>git clone --recursive git://github.com/UberGallery/UberGallery.git /path/to/gallery-directory</pre>
+                <pre>git clone --recursive git://github.com/UberGallery/UberGallery.git /path/to/ubergallery</pre>
 
                 <p>Copy <code>resources/sample.galleryConfig.ini</code> to <code>resources/galleryConfig.ini</code> and modify the settings</p>
 
-                <pre>cp /path/to/gallery-directory/resource/sample.galleryConfig.ini /path/to/gallery-directory/resources/galleryConfig.ini<br/>nano /path/to/gallery-directory/resources/galleryConfig.ini</pre>
+                <pre>cp resources/sample.galleryConfig.ini resources/galleryConfig.ini<br/>nano resources/galleryConfig.ini</pre>
 
                 <p>Upload images to the <code>gallery-images/</code> folder within your gallery directory.</p>
 
@@ -301,10 +301,17 @@
 
                 <p>Open your web browser and load the page where you installed UberGallery.</p>
 
-                <p><strong>NOTE:</strong> When using this method to install UberGallery, you may update your installation by running the
-                following commands:</p>
+                <p>When using this method to install UberGallery, you can update your installation
+                by running the following commands:</p>
 
-                <pre>cd /path/to/gallery-directory<br/>git pull origin master</pre>
+                <pre>cd /path/to/ubergallery<br/>git pull origin master</pre>
+
+                <div class="line"></div>
+
+                <p><strong>NOTE:</strong> If you are installing UberGallery via git into an existing
+                git repository, you will need to add it as a submodule.
+
+                <pre>git submodule add git://github.com/UberGallery/UberGallery.git path/to/ubergallery<br/>git submodule update --init --recursive path/to/ubergallery</pre>
             </div>
 
 
@@ -358,7 +365,7 @@
 
                 <div class="line"></div>
 
-                <p>If you continue to have issues, <a href="mailto:Chris@ChrisKankiewicz.com">send us an email</a> explaining your issue.</p>
+                <p>If you continue to have issues, <a href="mailto:UberGallery@GoogleGroups.com">send us an email</a> explaining your issue.</p>
             </div>
 
 
