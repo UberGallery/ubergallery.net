@@ -250,6 +250,12 @@ a:hover {
 }
 
 
+#donateMessage {
+    background: #213E4A url(../images/icons/bitcoin.png) no-repeat 20px center;
+    padding-left: 40px;
+}
+
+
 /* -------------------------------------------------------------------------- */
 /* -----| CONTENT |---------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
@@ -364,7 +370,7 @@ h2 small {
 }
 
 #downloadButtons a:hover {
-    background: #BCBCBC url(../images/gradient_sprite.png) repeat-x left -60px;    
+    background: #BCBCBC url(../images/gradient_sprite.png) repeat-x left -60px;
 }
 
 /* ----- DOWNLOADS LIST ----- */
@@ -377,7 +383,7 @@ h2 small {
     display: inline-block;
     float: left;
     font-weight: bold;
-    margin: 2px 5px; 
+    margin: 2px 5px;
     text-align: right;
 }
 
@@ -531,7 +537,7 @@ code {
     font-size: 12px;
     line-height: 1em;
     margin: 0;
-    padding: 0 0.25em !important;
+    padding: 0.25em !important;
 }
 
 pre {

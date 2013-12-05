@@ -107,6 +107,10 @@
                 </li>
             </ul>
 
+            <div id="donateMessage" class="contentBox">
+                Help keep UberGallery free, donate via Bitcoin.  Contribute to: <code>14f2BDG3m3J7VHrfKYRrofnoYVhCtSULAQ</code>
+            </div>
+
 
             <div class="contentBox" id="intro">
                 <h2>Introduction</h2>
@@ -191,7 +195,6 @@
                 </div>
 
                 <div class="line"></div>
-
 
                 <p class="requirements">UberGallery requires PHP 5.2+ and the PHP-GD image library
                 to work properly.<br/>For more information on PHP and the PHP-GD image library,
