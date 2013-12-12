@@ -109,7 +109,7 @@
 
             <div id="donateMessage" class="contentBox">
                 Help keep UberGallery free, donate via <a href="http://bitcoin.org">Bitcoin</a>.
-                Contribute to: <code>14f2BDG3m3J7VHrfKYRrofnoYVhCtSULAQ</code>
+                Contribute to: <code>1FJUJHB2cTFGNmuNrPD5U7qNEcBnW6Kp5G</code>
             </div>
 
 
