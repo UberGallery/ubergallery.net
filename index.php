@@ -86,7 +86,7 @@
                 <li><a href="#troubleshooting">Troubleshooting</a></li>
                 <li><a href="#faq">F.A.Q.</a></li>
                 <li><a href="#more-info">More Info</a></li>
-                <li><a href="http://news.ubergallery.net"><span class="externalLink">News</span></a></li>
+                <li><a href="https://github.com/UberGallery/UberGallery/releases"><span class="externalLink">Releases</span></a></li>
 
                 <li class="followLinks">
                     <div class="followLinksInner">
