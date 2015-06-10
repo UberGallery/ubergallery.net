@@ -251,8 +251,7 @@ a:hover {
 
 
 #donateMessage {
-    background: #213E4A url(../images/icons/bitcoin.png) no-repeat 20px center;
-    padding-left: 40px;
+    text-align: center;
 }
 
 

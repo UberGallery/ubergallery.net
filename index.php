@@ -105,7 +105,7 @@
             </ul>
 
             <div id="donateMessage" class="contentBox">
-                Help keep UberGallery free for all, <a href="https://coinbase.com/ChrisKankiewicz">donate Bitcoins via CoinBase</a>.
+                Help keep UberGallery free for all, <a href="https://cash.me/$ChrisKankiewicz">donate today</a>.
             </div>
 
 
