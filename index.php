@@ -43,6 +43,8 @@
 
     </script>
 
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta itemprop="name" content="UberGallery - The simple PHP photo gallery">
     <meta itemprop="description" content="UberGallery is an easy to use, simple to manage, web photo gallery written in PHP and distributed under the MIT License. UberGallery does not require a database and supports JPEG, GIF and PNG file types. Simply upload your images and UberGallery will automatically generate thumbnails and output standards compliant XHTML markup on the fly.">
@@ -104,10 +106,22 @@
                 </li>
             </ul>
 
-            <div id="donateMessage" class="contentBox">
-                Help keep UberGallery free for all, <a href="https://cash.me/$ChrisKankiewicz">donate today</a>.
-            </div>
+            <div class="contentBox">
+                <!-- UberGallery Header -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-1239753369879086"
+                     data-ad-slot="4453443207"
+                     data-ad-format="auto"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
 
+                <div id="donateMessage">
+                    Help keep UberGallery free for all, <a href="https://cash.me/$ChrisKankiewicz">donate today</a>.
+                </div>
+
+            </div>
 
             <div class="contentBox" id="intro">
                 <h2>Introduction</h2>
@@ -197,8 +211,7 @@
                 to work properly.<br/>For more information on PHP and the PHP-GD image library,
                 please visit <a href="http://php.net">http://php.net</a>.</p>
 
-
-		<?php /*
+            <?php /*
                 <div id="downloadsHeader" class="clearfix">
                     <span class="description">Description</span>
                     <span class="createDate">Created</span>
@@ -224,8 +237,21 @@
                         </div>
                     </div>
                 </div>
-		*/ ?>
+            */ ?>
 
+            </div>
+
+
+            <div class="contentBox">
+                <!-- UberGallery Download -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-1239753369879086"
+                     data-ad-slot="3895040008"
+                     data-ad-format="auto"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
             </div>
 
 
@@ -408,6 +434,18 @@
                         <dd>Report it by opening an issue on our <a href="http://github.com/UberGallery/ubergallery/issues">GitHub issue tracker</a>.</dd>
                 </dl>
 
+            </div>
+
+            <div class="contentBox">
+                <!-- UberGallery Footer -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-1239753369879086"
+                     data-ad-slot="8464840409"
+                     data-ad-format="auto"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
             </div>
 
             <?php include('partials/social-buttons.html'); ?>
